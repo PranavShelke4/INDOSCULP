@@ -34,21 +34,21 @@ function App() {
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-flex" src={logo} alt="Second slide" />
-                <Carousel.Caption className="text-light">
+                {/* <Carousel.Caption className="text-light">
                   <h3>Product Name</h3>
                   <p>
                     Nulla vitae elit libero, a pharetra augue mollis interdum.
                   </p>
-                </Carousel.Caption>
+                </Carousel.Caption> */}
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-flex" src={banner} alt="Third slide" />
-                <Carousel.Caption className="text-light">
+                {/* <Carousel.Caption className="text-light">
                   <h3>Product Name</h3>
                   <p>
                     Nulla vitae elit libero, a pharetra augue mollis interdum.
                   </p>
-                </Carousel.Caption>
+                </Carousel.Caption> */}
               </Carousel.Item>
             </Carousel>
           </Col>
