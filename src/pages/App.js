@@ -5,6 +5,8 @@ import { useState } from "react";
 import { Carousel } from "react-bootstrap";
 import logo from "../assets/img/image.svg";
 import product from "../assets/img/Products/product.png";
+import banner from "../assets/img/Products/banner2.jpg";
+
 function App() {
   const [index, setIndex] = useState(0);
 
@@ -87,7 +89,7 @@ function App() {
           </div>
           <div>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={product} />
+              <Card.Img variant="top" src={banner} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
