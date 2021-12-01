@@ -34,28 +34,21 @@ function App() {
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-flex" src={logo} alt="Second slide" />
-
-                {/* <Carousel.Caption>
-                  <h3>Second slide label</h3>
+                <Carousel.Caption className="text-light">
+                  <h3>Product Name</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
                   </p>
-                </Carousel.Caption> */}
+                </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img
-                  className="d-flex"
-                  src="https://source.unsplash.com/user/c_v_r/100x100"
-                  alt="Third slide"
-                />
-
-                {/* <Carousel.Caption>
-                  <h3>Third slide label</h3>
+                <img className="d-flex" src={banner} alt="Third slide" />
+                <Carousel.Caption className="text-light">
+                  <h3>Product Name</h3>
                   <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
                   </p>
-                </Carousel.Caption> */}
+                </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
           </Col>
@@ -89,7 +82,7 @@ function App() {
           </div>
           <div>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={banner} />
+              <Card.Img variant="top" src={product} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
