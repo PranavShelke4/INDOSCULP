@@ -1,0 +1,31 @@
+{
+  "header": {
+    "menu": [
+      {"Products & Solutions": []},
+      {"Markets & Applications": [
+        "Agriculture & Forestry",
+        "Construction",
+        "Food & Beverage",
+        "Intralogistics",
+        "Logistics",
+        "Marine & Offshore",
+        "Mining",
+        "Packaging",
+        "Wind",
+        "Textile",
+        "Recycling"
+      ]},
+      {"Company": [
+       "About us",
+        "Excellence",
+        "Financial Highlights",
+        "Social Responsibility",
+        "News, Media & Events",
+        "Contacts",
+        "Bonfiglioli Service",
+        "purchase-conditions"
+      ]},
+      {"Peoples": null}
+    ]
+  }
+}
