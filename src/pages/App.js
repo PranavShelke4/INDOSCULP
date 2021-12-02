@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { useState } from "react";
 // import { Link } from 'react-router-dom';
 import { Carousel } from "react-bootstrap";
-import logo from "../assets/img/image.svg";
+import logo from "../assets/img/Logo.svg";
 import product from "../assets/img/Products/product.png";
 import banner from "../assets/img/Products/banner2.jpg";
 
@@ -24,7 +24,11 @@ function App() {
               variant="dark"
             >
               <Carousel.Item>
-                <img className="d-flex" src={product} alt="First slide" />
+                <img
+                  className="d-flex img-fluid"
+                  src={product}
+                  alt="First slide"
+                />
                 <Carousel.Caption className="text-light">
                   <h3>Product Name</h3>
                   <p>
@@ -33,7 +37,11 @@ function App() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-flex" src={logo} alt="Second slide" />
+                <img
+                  className="d-flex img-fluid"
+                  src={logo}
+                  alt="Second slide"
+                />
                 {/* <Carousel.Caption className="text-light">
                   <h3>Product Name</h3>
                   <p>
@@ -42,7 +50,11 @@ function App() {
                 </Carousel.Caption> */}
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-flex" src={banner} alt="Third slide" />
+                <img
+                  className="d-flex img-fluid"
+                  src={banner}
+                  alt="Third slide"
+                />
                 {/* <Carousel.Caption className="text-light">
                   <h3>Product Name</h3>
                   <p>
@@ -53,9 +65,9 @@ function App() {
             </Carousel>
           </Col>
         </Row>
-        <div className="flex-row my-4 d-flex justify-content-around">
-          <div>
-            <Card style={{ width: "18rem" }}>
+        <div className="container my-4 card-deck row">
+          <div className="col-xs-12 col-sm-6 col-md-4 ">
+            <Card>
               <Card.Img variant="top" src={product} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -67,8 +79,8 @@ function App() {
               </Card.Body>
             </Card>
           </div>
-          <div>
-            <Card style={{ width: "18rem" }}>
+          <div className="col-xs-12 col-sm-6 col-md-4">
+            <Card>
               <Card.Img variant="top" src={product} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -80,8 +92,8 @@ function App() {
               </Card.Body>
             </Card>
           </div>
-          <div>
-            <Card style={{ width: "18rem" }}>
+          <div className="col-xs-12 col-sm-6 col-md-4">
+            <Card>
               <Card.Img variant="top" src={product} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>

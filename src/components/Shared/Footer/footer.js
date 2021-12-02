@@ -4,59 +4,164 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="pt-4 page-footer font-small bg-dark text-light">
-      <div className="text-center container-fluid text-md-left">
-        <div className="row">
-          <div className="mt-3 col-md-6 mt-md-0">
-            <h5 className="text-uppercase">Footer Content</h5>
-            <p>
-              Here you can use rows and columns to organize your footer content.
-            </p>
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                  <h4>Find us</h4>
+                  <span>1010 Avenue, sw 54321, chandigarh</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Call us</h4>
+                  <span>9876543210 0</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Mail us</h4>
+                  <span>mail@info.com</span>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <hr className="clearfix pb-0 w-100 d-md-none" />
-
-          <div className="mb-3 col-md-3 mb-md-0">
-            <h5 className="text-uppercase">Links</h5>
-            <ul className="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-          </div>
-
-          <div className="mb-3 col-md-3 mb-md-0">
-            <h5 className="text-uppercase">Links</h5>
-            <ul className="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>INDOSCULP</h3>
+                </div>
+                <div class="footer-text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
+                    sed do eiusmod tempor incididuntut consec tetur adipisicing
+                    elit,Lorem ipsum dolor sit amet.
+                  </p>
+                </div>
+                <div class="footer-social-icon">
+                  <span>Follow us</span>
+                  <a href=".">
+                    <i class="fab fa-facebook-f facebook-bg"></i>
+                  </a>
+                  <a href=".">
+                    <i class="fab fa-twitter twitter-bg"></i>
+                  </a>
+                  <a href=".">
+                    <i class="fab fa-google-plus-g google-bg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li>
+                    <a href=".">Home</a>
+                  </li>
+                  <li>
+                    <a href=".">about</a>
+                  </li>
+                  <li>
+                    <a href=".">services</a>
+                  </li>
+                  <li>
+                    <a href=".">portfolio</a>
+                  </li>
+                  <li>
+                    <a href=".">Contact</a>
+                  </li>
+                  <li>
+                    <a href=".">About us</a>
+                  </li>
+                  <li>
+                    <a href=".">Our Services</a>
+                  </li>
+                  <li>
+                    <a href=".">Expert Team</a>
+                  </li>
+                  <li>
+                    <a href=".">Contact us</a>
+                  </li>
+                  <li>
+                    <a href=".">Latest News</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Subscribe</h3>
+                </div>
+                <div class="footer-text mb-25">
+                  <p>
+                    Don’t miss to subscribe to our new feeds, kindly fill the
+                    form below.
+                  </p>
+                </div>
+                <div class="subscribe-form">
+                  <form action="#">
+                    <input type="text" placeholder="Email Address" />
+                    <button>
+                      <i class="fab fa-telegram-plane"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <div className="py-3 text-center footer-copyright">
-        © 2020 Copyright:
-        <a href="https://www.indosculp.com/"> Indosculp.com</a>
+      <div class="copyright-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>
+                  Copyright &copy; 2020, All Right Reserved{" "}
+                  <a href="https://www.indosculp.com/">Indosculp</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div class="footer-menu">
+                <ul>
+                  <li>
+                    <a href=".">Home</a>
+                  </li>
+                  <li>
+                    <a href=".">Terms</a>
+                  </li>
+                  <li>
+                    <a href=".">Privacy</a>
+                  </li>
+                  <li>
+                    <a href=".">Policy</a>
+                  </li>
+                  <li>
+                    <a href=".">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   );

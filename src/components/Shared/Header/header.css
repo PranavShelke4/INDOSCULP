@@ -6,8 +6,8 @@
 }
 
 .navbar-brand img {
-    width: 100px;
-    height: 77px;
+    width: 90px;
+    height: auto;
     object-fit: cover;
 }
 
@@ -19,6 +19,7 @@
     font-family: 'Lato', sans-serif;
     background: transparent;
 }
+
 
 .nav-dropdown {
     color: #fff !important;
@@ -39,4 +40,20 @@
     background: transparent;
     border-radius: 5px;
 
+}
+
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        background-color: #0095DA !important;
+        color: #fff !important;
+    }
+
+    .nav-dropdown {
+        padding-left: 1rem !important;
+    }
+
+    .nav-link {
+        padding-left: 1rem !important;
+    }
 }
