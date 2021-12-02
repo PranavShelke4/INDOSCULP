@@ -57,13 +57,13 @@ const Footer = () => {
                 <div className="footer-social-icon">
                   <span>Follow us</span>
                   <a href=".">
-                    <img src={facebook} alt="My Happy SVG" />
+                    <img src={facebook} alt="facebook" />
                   </a>
                   <a href=".">
-                    <img src={youtube} alt="My Happy SVG" />
+                    <img src={youtube} alt="youtube" />
                   </a>
                   <a href=".">
-                    <img src={instagram} alt="My Happy SVG" />
+                    <img src={instagram} alt="instagram" />
                   </a>
                 </div>
               </div>
