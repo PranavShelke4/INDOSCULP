@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { useState } from "react";
 // import { Link } from 'react-router-dom';
 import { Carousel } from "react-bootstrap";
-import logo from "../assets/img/Logo.svg";
+import logo from "../assets/img/LOGO-01.png";
 import product from "../assets/img/Products/product.png";
 import banner from "../assets/img/Products/banner2.jpg";
 
