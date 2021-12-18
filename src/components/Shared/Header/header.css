@@ -1,21 +1,15 @@
-.navbar {
+/* .navbar {
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
 
 }
 
-.navbar-brand img {
-    width: 80px;
-    height: auto;
-    object-fit: cover;
-}
 
 .nav-item {
     color: #fff !important;
     font-weight: 500;
     font-size: 1.1rem;
-    /* color: #fff; */
     font-family: 'Lato', sans-serif;
     background: transparent;
 }
@@ -56,4 +50,35 @@
     .nav-link {
         padding-left: 1rem !important;
     }
+} */
+
+
+
+.navbar{
+    background-color: white;
+    padding: 2%;
+    opacity: 0.8;
 }
+
+.navbar-brand {
+    padding-right: 100px;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 5%;
+}
+
+.nav-link{
+    color: #003168 !important;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.nav-dropdown{
+    margin-right: 2%;
+    font: bold;
+}
+
