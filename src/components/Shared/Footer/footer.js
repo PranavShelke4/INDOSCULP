@@ -167,11 +167,15 @@ const Footer = () => {
     //     </div>
     //   </div>
     // </footer>
+    <>
+      <footer>
+        
+      </footer>
 
 
-    <div>
-      
-    </div>
+
+    </>
+
   );
 };
 
