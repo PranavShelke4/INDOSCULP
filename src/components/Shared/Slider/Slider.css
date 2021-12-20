@@ -1,16 +1,32 @@
 #imgs{
-    height: 700px;
+    height: 600px;
     float: right;
+    width: 80%;
 }
-.carousel{
-    margin-top: -8%;
-}
-/* #info{
+
+#info{
     background-color: black;
     float: left;
-    width: 600px;
-    position: relative;
-    bottom: -25px;
-    left: -229px;
+    width: 50%;
+    opacity: .8;
+    margin-left: -229px;
+    margin-bottom: -40px;
     height: 600px;
-} */
+    padding: 5%;
+}
+
+.carousel{
+    margin-top: -25px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #info{
+        display: none;
+    }
+  
+    #imgs{
+        width: 100%;
+        height: 300px;
+    }
+}

@@ -1,8 +1,9 @@
 .navbar{
     background-color: white;
     padding: 2%;
-    opacity: 0.9;
+    opacity: .9;
     box-shadow: 0px 0px 5px 5px rgb(107, 111, 116);
+    height: 80px;
 }
 
 .navbar-brand {
@@ -26,9 +27,14 @@
 
 .nav-link:hover{
     text-decoration: underline;
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+    box-shadow:0 8px 20px 0px rgba(29, 28, 28, 0.125);
 }
 
 
 .nav-dropdown{
     margin-right: 2%;
 }
+

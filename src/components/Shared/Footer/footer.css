@@ -1,4 +1,4 @@
-ul {
+/* ul {
     margin: 0px;
     padding: 0px;
 }
@@ -124,7 +124,7 @@ ul {
 
 .footer-widget ul li {
     display: inline-block;
-    /* float: left; */
+    float: left;
     width: 50%;
     margin-bottom: 12px;
 }
@@ -193,4 +193,86 @@ ul {
 .footer-menu li a {
     font-size: 14px;
     color: #878787;
+} */
+
+.logo{
+    width: 60px;
+    height: 60px;
+    padding-right: 3%;
+}
+
+span{
+    font-size: 25px;
+    color: #003168;
+}
+
+.about{
+    background-color: rgba(243, 243, 243, 1);
+    text-align: center;
+    height: 300px;
+    padding: 1%;
+}
+
+.sec_div{
+    padding: 3%;
+    background-color: #003168;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 33%;
+}
+
+.Our_Products{
+    display: inline-block;
+    color: white;
+    margin-top: -50px !important;
+}
+
+.Contact_Us{
+    display: inline-block;
+    color: white;
+    padding: 1%;
+}
+
+.Quick_Links{
+    display: inline-block;
+    color: white;
+}
+
+h4{
+    padding-bottom: 2%;
+}
+
+.social{
+    padding-bottom: 3%;
+    padding-right: 2%;
+}
+
+.Copyright{
+    font-size: small;
+}
+
+.pages{
+    color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .about{
+        padding: 5%;
+        height: auto;
+    }
+
+    .sec_div{
+        margin-top: 0px;
+        margin-left: 0px;
+        height: auto;
+        width: 100%;
+        padding-top: 20%;
+        padding-left: 6%;
+    }
+
+    .Contact_Us{
+        margin-bottom: 5%;
+    }
+  
 }

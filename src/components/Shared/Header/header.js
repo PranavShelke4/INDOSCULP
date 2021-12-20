@@ -42,8 +42,15 @@ const Header = () => {
               <Nav.Link href="/"><b>Peoples</b></Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="/"><img src="https://img.icons8.com/ios/30/000000/facebook-f.png"/></Nav.Link>
-              <Nav.Link href="/"><img src="https://img.icons8.com/ios/30/000000/gmail--v2.png"/></Nav.Link>
+              <Nav.Link href="/"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                </svg></Nav.Link>
+              <Nav.Link href="/"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <polyline points="3 7 12 13 21 7" />
+              </svg></Nav.Link>
             </Nav>
           </Navbar.Collapse>
       </Navbar>
