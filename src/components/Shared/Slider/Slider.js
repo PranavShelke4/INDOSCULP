@@ -20,6 +20,7 @@ function Slideshow() {
           <Col>
             <Carousel activeIndex={index} onSelect={handleSelect} variant="dark" >
 
+
               <Carousel.Item>
                 <img className="d-flex img-fluid" id="imgs" src={product} alt="First slide" />
                 <Carousel.Caption  className="text-light">

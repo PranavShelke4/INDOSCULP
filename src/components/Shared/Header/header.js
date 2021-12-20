@@ -7,7 +7,6 @@ import "./header.css";
 import logo from "../../../assets/img/Logo1.svg";
 
 
-
 const Header = () => {
   return (
     <>

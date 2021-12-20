@@ -8,6 +8,7 @@ function Product() {
         <div>
         <Container>
         <div className="container my-4 card-deck row">
+        
           <div className="col-xs-12 col-sm-6 col-md-4 cards">
              <a href='/'>
               <Card>
@@ -22,6 +23,7 @@ function Product() {
                 </Card>
               </a>
           </div>
+
           <div className="col-xs-12 col-sm-6 col-md-4">
           <a href='/'>
               <Card>
