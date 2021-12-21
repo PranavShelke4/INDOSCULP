@@ -1,0 +1,24 @@
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.product{
+    padding-left: 30px;
+}
+
+a:hover{
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .card{
+        margin-right: -8%;
+        margin-left: 6%;
+    }
+    
+    .product{
+        padding-left: 0px;
+    }
+}
