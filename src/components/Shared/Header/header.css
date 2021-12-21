@@ -43,12 +43,15 @@
     .navbar{
         opacity: none;
         background-color: white;
+        opacity: 1;
     }
     .nav-link{
         background-color: white;
         text-align: center;
+        opacity: 1;
+        width: 110%;
+        margin-left: -10px;
     }
-    .nav{
-        padding-top: 5%;
-    }
+
+    
 }

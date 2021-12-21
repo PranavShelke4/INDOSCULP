@@ -5,7 +5,7 @@ import './Product.css'
 
 function Product() {
     return (
-        <div>
+        <div className='product'>
         <Container>
         <div className="container my-4 card-deck row">
         

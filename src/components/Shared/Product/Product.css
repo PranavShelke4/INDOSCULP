@@ -3,6 +3,9 @@ a{
     color: black !important;
 }
 
+.product{
+    padding-left: 30px;
+}
 
 a:hover{
     color: black;
@@ -14,5 +17,8 @@ a:hover{
         margin-right: -8%;
         margin-left: 6%;
     }
-  
+    
+    .product{
+        padding-left: 0px;
+    }
 }
