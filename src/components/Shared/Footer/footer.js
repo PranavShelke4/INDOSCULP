@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="about col-xl-4 col-md-12 col-sm-12">
+        <div className="about col-lg-4 col-md-12 col-sm-12">
             <img alt="" className="logo" src={logo} />
             <span><b>Indosculp</b></span>
 
@@ -29,9 +29,11 @@ const Footer = () => {
         </div>
 
 
-        <div className="sec_div col-xl-8 col-md-12 col-sm-12" >
+        <div className="sec_div col-lg-8 col-md-12 col-sm-12" >
+
+
             <div className="Our_Products col-xl-4 col-md-12 col-sm-12">
-            <h4>Our Products</h4>
+            <div><h4>Our Products</h4></div>
               <ul>
                 <li>Three Wheeler Gears</li>
                 <li>Electical Motor Shaft</li>
@@ -41,7 +43,7 @@ const Footer = () => {
             </div>
 
 
-            <div className="Contact_Us col-xl-4 col-md-12 col-sm-12">
+            <div className="Contact_Us col-lg-4 col-md-12 col-sm-12">
               <h4>Contact Us</h4>
 
               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="20" height="20" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -65,7 +67,7 @@ const Footer = () => {
             </div>
 
 
-            <div className="Quick_Links col-xl-4 col-md-12 col-sm-12">
+            <div className="Quick_Links col-lg-4 col-md-12 col-sm-12">
               <h4>Quick Links</h4>
               <ul>
                 <li><a className="pages" href="/">About</a></li>
