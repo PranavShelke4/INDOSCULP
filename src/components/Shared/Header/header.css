@@ -8,7 +8,7 @@
 
 .navbar-brand {
     padding-right: 30px;
-    color: #003168 !important;
+    color: #329ED6 !important;
     font-size: 30px !important;
 }
 
@@ -19,25 +19,30 @@
 }
 
 .nav-link{
-    color: #003168 !important;
+    color: #329ED6 !important;
     margin-left: 2%;
     margin-right: 2%;
     font-size: large;
 }
 
 .nav-link:hover{
-    text-decoration: underline !important;
+    /* text-decoration: underline !important;
     opacity:1;
-    box-shadow: 0px 3px 10px 3px rgba(15, 14, 14, 0.452);
-}
+    box-shadow: 1px 0px 10px 0px rgba(15, 14, 14, 0.452); */
 
+    color: black !important;
+}
 
 .nav-dropdown{
     margin-right: 2%;
 }
 
 #nav_dropdown_item{
-    color: #003168 !important;
+    color: #329ED6 !important;
+}
+
+#nav_dropdown_item:hover{
+    color: black !important;
 }
 
 @media only screen and (max-width: 600px) {

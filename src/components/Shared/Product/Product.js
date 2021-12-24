@@ -53,6 +53,19 @@ function Product() {
               </a>
           </div>
         </div>
+
+        <div className="col-lg-4 col-xs-12 col-sm-6 col-md-4">
+          <a href='/'><img className='product1' alt='' src={product} /></a> 
+        </div>
+
+        <div className="col-lg-4 col-xs-12 col-sm-6 col-md-4">
+          <a href='/'><img className='product2' alt='' src={product} /></a>  
+        </div>
+
+        <div className="col-lg-4 col-xs-12 col-sm-6 col-md-4">
+          <a href='/'><img className='product3' alt='' src={product} /></a> 
+        </div>
+
         </Container>
         </div>
     )
