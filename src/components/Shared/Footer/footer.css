@@ -15,15 +15,16 @@ span{
     text-align: center;
     height: 300px;
     padding: 1%;
-    margin-left: 0%;
+    float: left;
 }
 
 .sec_div{
     padding: 3%;
     background-color: #003168;
     height: 300px;
-    margin-top: -300px;
-    margin-left: 506px;
+    float: right;
+    /* margin-top: -300px;
+    margin-left: 506px; */
 }
 
 .Our_Products{

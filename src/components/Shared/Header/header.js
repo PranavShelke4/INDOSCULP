@@ -8,6 +8,7 @@ import logo from "../../../assets/img/Logo1.svg";
 
 
 const Header = () => {
+
   return (
     <>
       <Navbar collapseOnSelect expand="lg" fixed="top">
@@ -15,28 +16,28 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/" className="nav-link"><b>Products</b></Nav.Link>
+              <Nav.Link className="nav-link"><b>Products</b></Nav.Link>
               <NavDropdown className="nav-dropdown" title={<b>Markets & Applications</b>} id="collasible-nav-dropdown">
-                <NavDropdown.Item href="/">Agriculture</NavDropdown.Item>
-                <NavDropdown.Item href="/">Construction</NavDropdown.Item>
-                <NavDropdown.Item href="/">Food & Beverage</NavDropdown.Item>
-                <NavDropdown.Item href="/">Intralogistics</NavDropdown.Item>
-                <NavDropdown.Item href="/">Logistics</NavDropdown.Item>
-                <NavDropdown.Item href="/">Marine & Offshore</NavDropdown.Item>
-                <NavDropdown.Item href="/">Mining</NavDropdown.Item>
-                <NavDropdown.Item href="/">Packaging</NavDropdown.Item>
-                <NavDropdown.Item href="/">Wind</NavDropdown.Item>
-                <NavDropdown.Item href="/">Textile</NavDropdown.Item>
-                <NavDropdown.Item href="/">Recycling</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/agriculture">Agriculture</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Construction</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Food & Beverage</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Intralogistics</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Logistics</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Marine & Offshore</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Mining</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Packaging</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Wind</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Textile</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Recycling</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title={<b>Company</b>} id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/">About us</NavDropdown.Item>
-                <NavDropdown.Item href="/">Excellence</NavDropdown.Item>
-                <NavDropdown.Item href="/">Financial Highlights</NavDropdown.Item>
-                <NavDropdown.Item href="/">Social Responsibility</NavDropdown.Item>
-                <NavDropdown.Item href="/">News, Media & Events</NavDropdown.Item>
-                <NavDropdown.Item href="/">Contacts</NavDropdown.Item>
-                <NavDropdown.Item href="/">Bonfiglioli Service</NavDropdown.Item>
+              <NavDropdown.Item id="nav_dropdown_item" href="/">About us</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Excellence</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Financial Highlights</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Social Responsibility</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">News, Media & Events</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Contacts</NavDropdown.Item>
+                <NavDropdown.Item id="nav_dropdown_item" href="/">Bonfiglioli Service</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/"><b>Peoples</b></Nav.Link>
             </Nav>

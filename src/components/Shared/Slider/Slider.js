@@ -25,7 +25,7 @@ function Slideshow() {
                 <img className="d-flex img-fluid" id="imgs" src={product} alt="First slide" />
                 <Carousel.Caption  className="text-light">
                   <div id='info'>
-                    <h3>Product Name</h3>
+                    <h3>Product 1</h3>
                     <p>
                       Nulla vitae elit libero, a pharetra augue mollis interdum.
                     </p>
@@ -37,7 +37,7 @@ function Slideshow() {
                 <img className="d-flex img-fluid" id="imgs"  src={logo} alt="Second slide" />
                 <Carousel.Caption className="text-light">
                   <div id='info'>
-                      <h3>Product Name</h3>
+                      <h3>Product 2</h3>
                       <p>
                         Nulla vitae elit libero, a pharetra augue mollis interdum.
                       </p>
@@ -49,7 +49,7 @@ function Slideshow() {
                 <img className="d-flex img-fluid" id="imgs" src={banner} alt="Third slide" />
                 <Carousel.Caption className="text-light">
                   <div id='info'>
-                      <h3>Product Name</h3>
+                      <h3>Product 3</h3>
                       <p>
                         Nulla vitae elit libero, a pharetra augue mollis interdum.
                       </p>
