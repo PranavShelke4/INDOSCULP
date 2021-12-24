@@ -7,7 +7,7 @@
 
 span{
     font-size: 25px;
-    color: #003168;
+    color: #329ED6;
 }
 
 .about{
@@ -20,7 +20,7 @@ span{
 
 .sec_div{
     padding: 3%;
-    background-color: #003168;
+    background-color: #329ED6;
     height: 300px;
     float: right;
     /* margin-top: -300px;
@@ -28,20 +28,22 @@ span{
 }
 
 .Our_Products{
-    display: inline-block;
+    display: inline-table;
     color: white;
-    margin-top: -50px !important;
 }
 
 .Contact_Us{
-    display: inline-block;
+    display: inline-table;
     color: white;
-    padding: 1%;
+    /* margin-left: 33%;
+    margin-top: -18%; */
 }
 
 .Quick_Links{
-    display: inline-block;
+    display: inline-table;
     color: white;
+    /* margin-left: 68%;
+    margin-top: -21%; */
 }
 
 h4{
