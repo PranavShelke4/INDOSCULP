@@ -1,8 +1,7 @@
 
 .logo{
-    width: 60px;
-    height: 60px;
-    padding-right: 3%;
+    width: 200px;
+    height: 45px;
 }
 
 span{
@@ -71,16 +70,15 @@ h4{
     }
 
     .sec_div{
-        margin-top: 0px;
-        margin-left: 0px;
         height: auto;
         width: 100%;
-        padding-top: 20%;
-        padding-left: 6%;
+        padding-top: 10%;
+        padding-left: 10%;
     }
 
     .Contact_Us{
         margin-bottom: 5%;
+        margin-right: 5%;
     }
   
 }
