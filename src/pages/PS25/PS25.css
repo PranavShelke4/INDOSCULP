@@ -1,0 +1,23 @@
+#ps{
+    margin-top: 5%;
+    margin-right: 0px;
+}
+
+.img{
+    width: 100%;
+}
+
+#productInfo{
+    padding: 5%;
+}
+
+#title{
+    font-size: 4rem;
+    color: #329ED6;
+    margin-bottom: -15px;
+}
+
+.productInfo{
+    margin-top: 5%;
+    font-size: 17px;
+}

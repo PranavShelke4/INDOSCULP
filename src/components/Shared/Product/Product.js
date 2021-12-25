@@ -58,7 +58,7 @@ function Product() {
         <div className='row' id='products'>
 
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-6" id='productCard'>
-                  <a href='/'>
+                  <a href='/PS25'>
                     <img className='productImg' src={product} alt='product1'/>
                     <h3>PS25 Foot Type</h3>
                     <p>Some quick example text to build on the card title and make up
