@@ -19,6 +19,7 @@ function PS25() {
                    The 300M Series can be completed with a wide range of electric motors entirely manufactured by Bonfiglioli. 
                    Asynchronous motors (BN-BE-BX/M-ME-MX) can be coupled with 300M Series gearboxes, providing our customers 
                    a complete solution.</p>
+                   
             </div>
         </div>
     )
