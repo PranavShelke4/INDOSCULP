@@ -106,7 +106,53 @@ iframe{
 
 .box{
     background-color: #329ED6;
-    margin-right: 0px;
-    padding-left: 3%;
-    padding-right: 3%;
+    margin-right: 0px !important;
+    padding-left: 120px;
+    padding-right: 110px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
 }
+
+.box2{
+    padding-top: 5%;
+}
+
+.box1{
+    padding: 3%;
+}
+
+.title1{
+    text-align: center;
+    padding: 3%;
+}
+
+.Title{
+    font-size: 4rem;
+    margin-bottom: 3%;
+}
+
+.Title2{
+    margin-bottom: 3%;
+}
+
+.product_info{
+    font-size: 23px;
+    padding: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .img{
+        width: 100%;
+    }
+
+    .box{
+        padding: 5% 0% 0 7%;
+    }
+
+    .Title, .Title2{
+        font-size: 3rem;
+        margin-bottom: 3%;
+    }
+} 
