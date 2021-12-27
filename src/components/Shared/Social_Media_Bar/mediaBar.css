@@ -1,28 +1,10 @@
-   /* Styling Body-part */
-   .body-part {
-    width: 600px;
-    height: 200px;
-    border: 3px solid black;
-    overflow: auto;
-}
- 
-h2 {
-    color: green;
-}
- 
-/* Justifying Content text */
-p {
-    text-align: justify;
-    margin: 40px;
-}
- 
-/* Styling icons */
-.icon-list {
+
+ /* Styling icons */
+ .icon-list {
     position: fixed;
-    top: 242px;
+    top: 97%;
     right:40%;
-    transform: translateY(-50%);
-     
+    transform: translateY(-50%);  
 }
  
 .icon-list a {
@@ -38,12 +20,12 @@ p {
  /* HOver affect on icons */
 .icon-list a:hover {
     color: #000;
-    width:50px;
+    width:70px;
 }
 
 /* Designing each icons */
 .instagram {
-    background: #3f729b;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     color: white;
 }
  
@@ -64,4 +46,12 @@ p {
 .youtube {
     background: #c4302b;
     color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .icon-list {
+        right: 20%;
+    }
 }
