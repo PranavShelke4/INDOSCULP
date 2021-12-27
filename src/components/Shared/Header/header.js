@@ -4,6 +4,7 @@ import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import "./header.css";
 import logo from "../../../assets/icon/LOGOnew.png";
+import MediaBar from "../Social_Media_Bar/mediaBar";
 
 
 const Header = () => {
@@ -21,12 +22,13 @@ const Header = () => {
 
   return (
     <>
+      <MediaBar/>
       <Navbar id="navbar" className="autohide" collapseOnSelect expand="lg" fixed="top">
           <Navbar.Brand href="/"><img alt="" src={logo} /></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link className="nav-link"><b>Products</b></Nav.Link> 
+              <Nav.Link href="/" className="nav-link"><b>Products</b></Nav.Link> 
               <NavDropdown className="nav-dropdown" title={<b>Markets & Applications</b>} id="collasible-nav-dropdown">
                 <NavDropdown.Item id="nav_dropdown_item" href="/agriculture">Agriculture</NavDropdown.Item>
                 <NavDropdown.Item id="nav_dropdown_item" href="/">Construction</NavDropdown.Item>

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './PS25.css'
 import product from "../../assets/img/Products/product.png"
@@ -5,7 +6,7 @@ import product from "../../assets/img/Products/product.png"
 function PS25() {
     return (
         <div className='row' id='ps'>
-            <div className='col-lg-6 col-md-6 col-sm-12'>
+            <div className='col-lg-6 col-md-6 col-sm-12' id='productImg'>
                 <img className='img' src={product} alt='PS25'/>
             </div>
             <div className='col-lg-6 col-md-6 col-sm-12' id='productInfo'>
@@ -19,8 +20,28 @@ function PS25() {
                    The 300M Series can be completed with a wide range of electric motors entirely manufactured by Bonfiglioli. 
                    Asynchronous motors (BN-BE-BX/M-ME-MX) can be coupled with 300M Series gearboxes, providing our customers 
                    a complete solution.</p>
-                   
+
+                {/* <a href='https://webeeyo.com/'><button id='buy_btn'>Buy Now</button></a>
+                <a href='https://webeeyo.com/'><button id='contact_btn'>Contact now</button></a> */}
+                
+
             </div>
+
+            {/* <div className='col-lg-6 col-sm-12 col-md-6' id='benefits_box'>
+                <h1 ><b>Key benefits</b></h1>
+                    <p id='benefits' >- High torque density</p>
+                    <p id='benefits'>- High torque density</p>
+                    <p id='benefits'>- High torque density</p>
+                    <p id='benefits'>- High torque density</p>
+            </div>
+            <div className='col-lg-6 col-sm-12 col-md-6 box2' id='options_box'>
+                <h1 ><b>Main options</b></h1>
+                    <p id='benefits' >- High torque density</p>
+                    <p id='benefits'>- High torque density</p>
+                    <p id='benefits'>- High torque density</p>
+                    <p id='benefits'>- High torque density</p>
+            </div> */}
+
         </div>
     )
 }
