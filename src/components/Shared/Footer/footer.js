@@ -24,7 +24,7 @@ const Footer = () => {
             <p className="Copyright">
               Copyright &copy; 2020, All Right Reserved{" "}
               <a href="https://www.indosculp.com/">Indosculp</a>
-              <br/>Made with <a href="https://webeeyo.com/">webeeyo</a>
+              {/* <br/>Made with <a href="https://webeeyo.com/">webeeyo</a> */}
             </p>
         </div>
 
@@ -37,8 +37,10 @@ const Footer = () => {
               <ul>
                 <li><a className="pages" href="/">PS25 Foot Type</a></li>
                 <li><a className="pages" href="/">PS25 Flange Type</a></li>
-                <li><a className="pages" href="/">PS30/35 Foot Type</a></li>
-                <li><a className="pages" href="/">PS30/35 Flange Type</a></li>
+                <li><a className="pages" href="/">PS30 Foot Type</a></li>
+                <li><a className="pages" href="/">PS30 Flange Type</a></li>
+                <li><a className="pages" href="/">PS35 Foot Type</a></li>
+                <li><a className="pages" href="/">PS35 Flange Type</a></li>
               </ul>
             </div>
 
