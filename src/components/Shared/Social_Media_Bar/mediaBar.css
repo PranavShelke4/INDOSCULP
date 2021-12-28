@@ -3,23 +3,24 @@
  .icon-list {
     position: fixed;
     top: 97%;
-    right:40%;
-    transform: translateY(-50%);  
+    right:80%;
+    transform: translateY(-50%); 
+    z-index: 94034;
 }
  
 .icon-list a {
     display: block;
     text-align: center;
     padding: 8px;
-    transition: all 0.5s ease;
+    transition: 0.3s;
     color: white;
     font-size: 20px;
     float:right;
+   
 }
  
  /* HOver affect on icons */
 .icon-list a:hover {
-    color: #000;
     width:70px;
 }
 
