@@ -7,16 +7,38 @@
     transform: translateY(-50%); 
     z-index: 94034;
 }
+
+.icon-list2 {
+    position: fixed;
+    top: 97%;
+    right: 5%;
+    transform: translateY(-50%); 
+    z-index: 94034;
+}
  
 .icon-list a {
     display: block;
     text-align: center;
-    padding: 8px;
+    padding: 5px;
     transition: 0.3s;
     color: white;
     font-size: 20px;
     float:right;
-   
+}
+
+.icon-list2 a {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    transition: 0.3s;
+    color: white;
+    font-size: 20px;
+    float:right;
+}
+
+span{
+    color: white;
+    font-size: large;
 }
  
  /* HOver affect on icons */
@@ -28,6 +50,8 @@
 .instagram {
     background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     color: white;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
  
 .facebook {
@@ -36,7 +60,7 @@
 }
  
 .twitter {
-    background: #00acee;
+    background: white;
     color: white;
 }
 .linkedin {
@@ -47,12 +71,29 @@
 .youtube {
     background: #c4302b;
     color: white;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.contact{
+    background-color: #003861;
+    border-radius: 10px;
 }
 
 
 @media only screen and (max-width: 600px) {
 
     .icon-list {
-        right: 20%;
+        display: none;
     }
+
+    .icon-list2 {
+       right: 0%;
+    }
+
+    .icon-list2 a{
+        width: 235%;
+        text-align: center;
+     }
+    
 }
