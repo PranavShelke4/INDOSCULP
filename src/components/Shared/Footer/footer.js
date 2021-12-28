@@ -2,9 +2,9 @@ import React from "react";
 import "./footer.css";
 
 import logo from "../../../assets/icon/LOGO_new.png";
-import facebook from "../../../assets/icon/facebook.svg";
-import youtube from "../../../assets/icon/youtube.svg";
-import instagram from "../../../assets/icon/instagram.svg";
+// import facebook from "../../../assets/icon/facebook.svg";
+// import youtube from "../../../assets/icon/youtube.svg";
+// import instagram from "../../../assets/icon/instagram.svg";
 
 const Footer = () => {
   return (
@@ -17,9 +17,9 @@ const Footer = () => {
               of an assortment of various engineering components such as finish Auto-gear components, Transmission Gears, 
               API couplings, Electric motor shafts, Worm gears, cluster gears, connecting shafts.</p>
             
-            <a href="."><img className="social" src={facebook} alt="facebook" /></a>
+            {/* <a href="."><img className="social" src={facebook} alt="facebook" /></a>
             <a href="."><img className="social" src={youtube} alt="youtube" /></a>
-            <a href="."><img className="social" src={instagram} alt="instagram" /></a>
+            <a href="."><img className="social" src={instagram} alt="instagram" /></a> */}
       
             <p className="Copyright">
               Copyright &copy; 2020, All Right Reserved{" "}

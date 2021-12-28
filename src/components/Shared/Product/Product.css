@@ -39,11 +39,14 @@
     height: 500px;
     transition: transform .3s;
     border-radius: 15px;
+    box-shadow: 0 0 15px 1px rgba(95, 105, 114, 0.349);
+    margin: 1%;
+    width: 48%;
 }
 
 #productCard:hover{
-    box-shadow: 0 0 15px 1px rgba(95, 105, 114, 0.349);
     transform: scale(.97);
+    
 }
 
 .productImg{
