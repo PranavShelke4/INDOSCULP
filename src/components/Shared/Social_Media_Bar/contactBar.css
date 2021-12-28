@@ -1,0 +1,78 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.mail-links {
+  display: flex;
+  position: fixed;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  background-color: "transparent";
+  width: min-content;
+  margin-right: 6rem;
+  z-index: 989880;
+}
+
+.mail-btn {
+  z-index: 989880;
+  cursor: pointer;
+  height: 40px;
+  width: 15rem;
+  padding: 1rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: "Titillium Web", sans-serif;
+  color: #333;
+  background: white;
+  /* transition: 1s; */
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.mail-btn samp {
+  /* width: 0px; */
+  /* overflow: hidden; */
+  transition: 1s;
+  text-align: center;
+  padding-right: 1rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+}
+
+.mail-btn:hover {
+  height: 60px;
+}
+
+.mail-btn:hover samp {
+  /* padding: 2px; */
+  width: max-content;
+}
+
+#mail {
+  background-color: rgb(75, 72, 72);
+}
+
+svg {
+  fill: #ffffff;
+}
+@media only screen and (max-width: 600px) {
+  .mail-links {
+    width: 100%;
+    /* position: relative; */
+    padding: 0;
+    margin: 0;
+  }
+  .mail-btn {
+    width: 100%;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+  }
+  .mail-btn:hover {
+    height: 40px;
+  }
+}
