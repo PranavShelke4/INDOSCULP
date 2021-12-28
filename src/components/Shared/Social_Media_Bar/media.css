@@ -46,14 +46,17 @@
   padding: 2px;
   width: max-content;
 }
-#twitter {
+#youtube {
   border-top-left-radius: 7px;
+  background-color: #db211b;
+}
+#twitter {
   background-color: #1da1f2;
 }
 #linkedin {
   background-color: #0e76a8;
 }
-#github {
+#mail {
   background-color: rgb(75, 72, 72);
 }
 #facebook {
@@ -61,7 +64,7 @@
   border-top-right-radius: 7px;
 }
 #instagram {
-  background-color: #d3b1ce;
+  background-color: #e79696;
 }
 
 svg {

@@ -4,7 +4,7 @@ import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import "./header.css";
 import logo from "../../../assets/icon/LOGOnew.png";
-import MediaBar from "../Social_Media_Bar/mediaBar";
+// import MediaBar from "../Social_Media_Bar/mediaBar";
 
 const Header = () => {
   var prevScrollpos = window.pageYOffset;

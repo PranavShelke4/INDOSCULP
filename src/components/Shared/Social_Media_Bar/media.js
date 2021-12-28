@@ -3,6 +3,20 @@ import "./media.css";
 const Media = () => {
   return (
     <div class="social-links">
+      <div class="social-btn flex-center" id="youtube">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 48 48"
+          width="48px"
+          height="48px"
+        >
+          <path
+            fill="#FF3D00"
+            d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z"
+          />
+          <path fill="#FFF" d="M20 31L20 17 32 24z" />
+        </svg>
+      </div>
       <div class="social-btn flex-center" id="twitter">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -25,30 +39,23 @@ const Media = () => {
         </svg>
       </div>
 
-      <div class="social-btn flex-center" id="github">
+      <div class="social-btn flex-center" id="mail">
         <svg
+          fill="#000000"
           xmlns="http://www.w3.org/2000/svg"
-          class="icon icon-tabler icon-tabler-mail"
-          width="30"
-          height="30"
-          viewBox="0 0 24 24"
-          stroke-width="2"
-          stroke="#000000"
-          fill="none"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          viewBox="0 0 512 512"
+          width="36"
+          height="36"
         >
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <rect x="3" y="5" width="18" height="14" rx="2" />
-          <polyline points="3 7 12 13 21 7" />
+          <path d="M 44.287109 114 L 256 311.81641 L 467.68359 114 L 44.287109 114 z M 478 123.72852 L 339.47656 253.17969 L 478 387.97461 L 478 123.72852 z M 34 123.75781 L 34 388.30859 L 175.03125 255.53125 L 34 123.75781 z M 329.22852 262.85547 L 260.7793 326.72656 A 7.018 7.018 0 0 1 251.2207 326.76562 L 185.28711 265.21094 L 44.351562 398 L 468.01367 398 L 329.22852 262.85547 z" />
         </svg>
       </div>
       <div class="social-btn flex-center" id="instagram">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 40 40"
-          width="24px"
-          height="24px"
+          width="30px"
+          height="30px"
         >
           <path
             fill="#8585cc"
