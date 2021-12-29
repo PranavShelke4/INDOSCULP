@@ -1,13 +1,20 @@
+/* eslint-disable react/style-prop-object */
+/* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './PS25.css'
-import product from "../../assets/img/Products/product.png"
+// import product from "../../assets/img/Products/product.png"
+import product from "../../assets/300MSeries.mp4"
 
 function PS25() {
+
     return (
         <div className='row' id='ps'>
             <div className='col-lg-6 col-md-6 col-sm-12' id='productImg'>
-                <img className='img' src={product} alt='PS25'/>
+                {/* <img className='img' src={product} alt='PS25'/> */}
+                <video id='myVideo' controls autoplay=""  loop>
+                    <source src={product} type="video/mp4" />
+                </video>
             </div>
             <div className='col-lg-6 col-md-6 col-sm-12' id='productInfo'>
                 <h1 id='title'><b>PS25 Foot Type</b></h1>
