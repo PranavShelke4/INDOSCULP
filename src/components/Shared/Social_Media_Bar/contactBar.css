@@ -42,6 +42,7 @@
   padding-right: 1rem;
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .mail-btn:hover {
@@ -54,7 +55,7 @@
 }
 
 #mail {
-  background-color: rgb(75, 72, 72);
+  background-color: #003861;
 }
 
 svg {
