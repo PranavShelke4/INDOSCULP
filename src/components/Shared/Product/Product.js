@@ -57,7 +57,7 @@ function Product() {
 
         <div className='row' id='products'>
 
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-6" id='productCard'>
+              <div className="col-sm-12 col-md-4 col-lg-6" id='productCard'>
                   <a href='/PS25'>
                     <img className='productImg' src={product} alt='product1'/>
                     <h3>PS25 Foot Type</h3>
@@ -66,7 +66,7 @@ function Product() {
                   </a>
               </div>
 
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-6" id='productCard'>
+              <div className="col-sm-12 col-md-4 col-lg-6" id='productCard'>
                   <a href='/'>
                     <img className='productImg' src={product} alt='product1'/>
                     <h3>PS25 Flange Type</h3>
@@ -75,7 +75,7 @@ function Product() {
                   </a>
               </div>
 
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-6" id='productCard'>
+              <div className="col-sm-12 col-md-4 col-lg-6" id='productCard'>
                   <a href='/'>
                     <img className='productImg' src={product} alt='product1'/>
                     <h3>PS30 Foot Type</h3>
@@ -84,7 +84,7 @@ function Product() {
                   </a>
               </div>
 
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-6" id='productCard'>
+              <div className="col-sm-12 col-md-4 col-lg-6" id='productCard'>
                   <a href='/'>
                     <img className='productImg' src={product} alt='product1'/>
                     <h3>PS30 Flange Type</h3>
@@ -93,7 +93,7 @@ function Product() {
                   </a>
               </div>
 
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-6" id='productCard'>
+              <div className="col-sm-12 col-md-4 col-lg-6" id='productCard'>
                   <a href='/'>
                     <img className='productImg' src={product} alt='product1'/>
                     <h3>PS35 Foot Type</h3>
@@ -102,7 +102,7 @@ function Product() {
                   </a>
               </div>
 
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-6" id='productCard'>
+              <div className="col-sm-12 col-md-4 col-lg-6" id='productCard'>
                   <a href='/'>
                     <img className='productImg' src={product} alt='product1'/>
                     <h3>PS35 Flange Type</h3>
