@@ -72,7 +72,7 @@ function Product() {
               <div className="rounded" id="productCard">
                 <img className="productImg" src={product} alt="product1" />
                 <div className="p-2">
-                  <h3>PS25 Foot Type</h3>
+                  <h3>PS25 Flange Type</h3>
                   <p>
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -86,7 +86,7 @@ function Product() {
               <div className="rounded" id="productCard">
                 <img className="productImg" src={product} alt="product1" />
                 <div className="p-2">
-                  <h3>PS25 Foot Type</h3>
+                  <h3>PS30 Foot Type</h3>
                   <p>
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -98,7 +98,33 @@ function Product() {
               <div className="rounded" id="productCard">
                 <img className="productImg" src={product} alt="product1" />
                 <div className="p-2">
-                  <h3>PS25 Foot Type</h3>
+                  <h3>PS30 Flange Type</h3>
+                  <p>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div className="d-flex flex-md-row flex-sm-column">
+            <a href="/PS25">
+              <div className="rounded" id="productCard">
+                <img className="productImg" src={product} alt="product1" />
+                <div className="p-2">
+                  <h3>PS35 Foot Type</h3>
+                  <p>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="/PS25">
+              <div className="rounded" id="productCard">
+                <img className="productImg" src={product} alt="product1" />
+                <div className="p-2">
+                  <h3>PS35 Flange Type</h3>
                   <p>
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
