@@ -45,6 +45,20 @@
   padding: 2px;
   width: max-content;
 }
+
+.arrow-btn {
+  z-index: 989880;
+  cursor: pointer;
+  height: 30px;
+  width: 60px;
+  font-family: "Titillium Web", sans-serif;
+  color: #333;
+  background: white;
+}
+.arrow-btn:hover {
+  height: 40px;
+}
+
 #arrow {
   border-top-left-radius: 7px;
   background-color: #003861;
@@ -68,7 +82,7 @@
   border-top-right-radius: 7px;
 }
 #instagram {
-  background-color: #e79696;
+  background-color: #f7cfe9;
 }
 
 svg {
