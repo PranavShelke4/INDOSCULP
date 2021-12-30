@@ -1,10 +1,7 @@
-/* eslint-disable react/style-prop-object */
-/* eslint-disable jsx-a11y/anchor-has-content */
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from 'react'
 import './PS25.css'
-// import product from "../../assets/img/Products/product.png"
-import product from "../../assets/300MSeries.mp4"
+import product from "../../assets/img/Products/P25.gif"
 
 function PS25() {
 
@@ -12,9 +9,7 @@ function PS25() {
         <div className='row' id='ps'>
             <div className='col-lg-6 col-md-6 col-sm-12' id='productImg'>
                 {/* <img className='img' src={product} alt='PS25'/> */}
-                <video id='myVideo' controls autoplay=""  loop>
-                    <source src={product} type="video/mp4" />
-                </video>
+                <img className='img' src={product} alt='PS25'/>
             </div>
             <div className='col-lg-6 col-md-6 col-sm-12' id='productInfo'>
                 <h1 id='title'><b>PS25 Foot Type</b></h1>
@@ -28,27 +23,25 @@ function PS25() {
                    Asynchronous motors (BN-BE-BX/M-ME-MX) can be coupled with 300M Series gearboxes, providing our customers 
                    a complete solution.</p>
 
-                {/* <a href='https://webeeyo.com/'><button id='buy_btn'>Buy Now</button></a>
-                <a href='https://webeeyo.com/'><button id='contact_btn'>Contact now</button></a> */}
+                <a href='/'><button id='buy_btn'><span>Buy Now </span></button></a>
+                <a href='/'><button id='contact_btn'><span>Contact now </span></button></a>
                 
 
             </div>
-
-            {/* <div className='col-lg-6 col-sm-12 col-md-6' id='benefits_box'>
-                <h1 ><b>Key benefits</b></h1>
-                    <p id='benefits' >- High torque density</p>
-                    <p id='benefits'>- High torque density</p>
-                    <p id='benefits'>- High torque density</p>
-                    <p id='benefits'>- High torque density</p>
-            </div>
-            <div className='col-lg-6 col-sm-12 col-md-6 box2' id='options_box'>
-                <h1 ><b>Main options</b></h1>
-                    <p id='benefits' >- High torque density</p>
-                    <p id='benefits'>- High torque density</p>
-                    <p id='benefits'>- High torque density</p>
-                    <p id='benefits'>- High torque density</p>
-            </div> */}
-
+                <div className='col-lg-6 col-sm-12 col-md-6' id='benefits_box'>
+                    <h1 ><b>Key benefits</b></h1>
+                        <p id='benefits' >- High torque density</p>
+                        <p id='benefits'>- High torque density</p>
+                        <p id='benefits'>- High torque density</p>
+                        <p id='benefits'>- High torque density</p>
+                </div>
+                <div className='col-lg-6 col-sm-12 col-md-6' id='options_box'>
+                    <h1 ><b>Main options</b></h1>
+                        <p id='benefits' >- High torque density</p>
+                        <p id='benefits'>- High torque density</p>
+                        <p id='benefits'>- High torque density</p>
+                        <p id='benefits'>- High torque density</p>
+                </div>
         </div>
     )
 }

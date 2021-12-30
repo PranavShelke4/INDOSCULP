@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
 import "./media.css";
 const Media = () => {
@@ -29,6 +30,7 @@ const Media = () => {
           <path d="M4 18l3 3l3 -3" />
           <line x1="17" y1="21" x2="17" y2="3" />
         </svg>
+          
       </div>
       <div class="social-btn flex-center" id="youtube">
         <svg
