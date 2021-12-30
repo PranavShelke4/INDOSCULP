@@ -1,78 +1,85 @@
-#navbar{
-    background-color: white;
-    padding: 2%;
-    height: 80px;
-    opacity: .9;
-    box-shadow: 0px 0px 5px 5px rgb(107, 111, 116);
-    transition: top 0.3s;
-    text-align: center;
+#navbar {
+  background-color: white;
+  padding: 2%;
+  height: 80px;
+  opacity: 0.9;
+  box-shadow: 0px 0px 5px 5px rgb(107, 111, 116);
+  transition: top 0.3s;
+  text-align: center;
 }
-
 
 .navbar-brand img {
-    width: 300px;
-    height: 55px;
-    object-fit: cover;
-    margin-right: 5%;
+  width: 300px;
+  height: 55px;
+  object-fit: cover;
+  margin-right: 5%;
 }
 
-.nav-link{
-    color: black !important;
-    margin-left: 2%;
-    margin-right: 2%;
-    font-size: large;
+.nav-link {
+  color: black !important;
+  /* margin-left: 2%;
+  margin-right: 2%; */
+  font-size: large;
 }
 
-.nav-link:hover{
-    /* text-decoration: underline !important;
-    opacity:1;
-    box-shadow: 1px 0px 10px 0px rgba(15, 14, 14, 0.452); */
-
-    color: #329ED6 !important;
+.nav-link:hover {
+  color: #329ed6 !important;
+}
+.nav-link:hover svg {
+  stroke: #329ed6;
+  /* fill: #329ed6; */
 }
 
-.nav-dropdown{
-    margin-right: 2%;
+.nav-dropdown {
+  margin-right: 2%;
 }
 
-#nav_dropdown_item{
-    color: black !important;
+#nav_dropdown_item {
+  color: black !important;
 }
 
-#nav_dropdown_item:hover{
-    color: #329ED6 !important;
+#nav_dropdown_item:hover {
+  color: #329ed6 !important;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 !important;
+}
+.contact-info samp {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 @media only screen and (max-width: 600px) {
+  .navbar {
+    background-color: white;
+    opacity: 1;
+  }
+  .navbar-brand img {
+    width: 180px;
+  }
+  .nav-link {
+    background-color: white;
+    text-align: center;
+    opacity: 1;
+    width: 110%;
+    margin-left: -10px;
+  }
 
-    .navbar{
-        background-color: white;
-        opacity: 1;
-    }
-    .navbar-brand img {
-        width: 180px;
-    }
-    .nav-link{
-        background-color: white;
-        text-align: center;
-        opacity: 1;
-        width: 110%;
-        margin-left: -10px;
-    }
+  .bg {
+    padding-top: 10%;
+  }
 
-    .bg{
-        padding-top: 10%;
-    }
+  .show {
+    width: 110%;
+    margin-left: -10px;
+    margin-top: -4px;
+  }
 
-    .show{
-        width: 110%;
-        margin-left: -10px;
-        margin-top: -4px;
-    }
-
-    #nav_dropdown_item{
-        text-align: center;
-    }
-
-    
+  #nav_dropdown_item {
+    text-align: center;
+  }
 }
