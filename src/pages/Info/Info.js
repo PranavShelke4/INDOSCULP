@@ -2,6 +2,7 @@ import React from 'react'
 import "./Info.css"
 import {Tab, Tabs} from "react-bootstrap"
 import ContactRequest from '../../components/Shared/Contact_request/Contact_request'
+import OurLocation from '../../components/Shared/Our_location/Our_location'
 
 function Info(props) {
 
@@ -23,14 +24,14 @@ function Info(props) {
                     id="noanim-tab-example"
                     className="mb-3"
                 >
-                    <Tab className='tab' eventKey="Sales_Distributors" title="Sales& Distributors">
+                    <Tab className='tab' eventKey="Sales_Distributors" title="Sales & Distributors">
                         hii
                     </Tab>
                     <Tab className='tab' eventKey="Contact_request" title="Contact request">
                         <ContactRequest />
                     </Tab>
-                    <Tab className='tab' eventKey="Our_location" title="Our location">
-                        hii3
+                    <Tab className='tab3' eventKey="Our_location" title="Our location">
+                        <OurLocation />
                     </Tab>
                 </Tabs>
             </div>

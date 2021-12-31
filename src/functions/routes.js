@@ -8,7 +8,6 @@ import PS25 from "../pages/PS25/PS25";
 import Media from "../components/Shared/Social_Media_Bar/media";
 import ContactBar from "../components/Shared/Social_Media_Bar/contactBar";
 import InfoPage from "../pages/Info/Info"
-import ContactRequest from "../components/Shared/Contact_request/Contact_request";
 
 const ConfigRoutes = () => {
   return (
@@ -21,7 +20,6 @@ const ConfigRoutes = () => {
         <Route path="/agriculture" element={<Agriculture />}></Route>
         <Route path="/PS25" element={<PS25 />}></Route>
         <Route path="/info" element={<InfoPage />}></Route>
-        <Route path="/ContactRequest" element={<ContactRequest />}></Route>
       </Routes>
       <Media></Media>
       <ContactBar></ContactBar>
