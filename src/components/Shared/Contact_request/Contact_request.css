@@ -15,10 +15,9 @@
   
   /*---------------------------------------------*/
   a {
-      font-family: Poppins-Regular;
-      font-size: 14px;
+      font-size: 17px;
       line-height: 1.7;
-      color: #666666;
+      color: black;
       margin: 0px;
       transition: all 0.4s;
       -webkit-transition: all 0.4s;
@@ -38,14 +37,7 @@
   h1,h2,h3,h4,h5,h6 {
       margin: 0px;
   }
-  
-  p {
-      font-family: Poppins-Regular;
-      font-size: 14px;
-      line-height: 1.7;
-      color: #666666;
-      margin: 0px;
-  }
+
   
   ul, li {
       margin: 0px;
@@ -170,8 +162,7 @@
   }
   
   .contact100-form-title-1 {
-    font-family: Poppins-Bold;
-    font-size: 20px;
+    font-size: 45px;
     color: #fff;
     line-height: 1.2;
     text-align: center;
@@ -179,8 +170,7 @@
   }
   
   .contact100-form-title-2 {
-    font-family: Poppins-Regular;
-    font-size: 15px;
+    font-size: 20px;
     color: #fff;
     line-height: 1.5;
     text-align: center;
@@ -227,9 +217,8 @@
   }
   
   .label-input100 {
-    font-family: Poppins-Regular;
-    font-size: 15px;
-    color: #808080;
+    font-size: 17px;
+    color: black;
     line-height: 1.2;
     text-align: right;
   
@@ -242,8 +231,7 @@
   
   /*---------------------------------------------*/
   .input100 {
-    font-family: Poppins-Regular;
-    font-size: 15px;
+    font-size: 17px;
     color: #555555;
     line-height: 1.2;
   
@@ -329,9 +317,8 @@
     height: 50px;
     background-color: #0B4068;
     border-radius: 25px;
-  
-    font-family: Poppins-Regular;
-    font-size: 16px;
+
+    font-size: 20px;
     color: white !important;
     line-height: 1.2;
   
@@ -409,10 +396,9 @@
     transform: translateY(-50%);
     right: 2px;
     pointer-events: none;
-  
-    font-family: Poppins-Medium;
+ 
     color: #c80000;
-    font-size: 13px;
+    font-size: 17px;
     line-height: 1.4;
     text-align: left;
   
