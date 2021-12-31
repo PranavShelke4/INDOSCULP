@@ -14,13 +14,17 @@
 }
 
 .nav-tabs{
-   margin-left: 40%;
+   margin-left: 35%;
    margin-top: 1%;
+   width: 400px;
 }
 
 #noanim-tab-example-tab-Sales_Distributors, #noanim-tab-example-tab-Contact_request, #noanim-tab-example-tab-Our_location{
     padding: 5%;
 }
+
+
+
 
 
 

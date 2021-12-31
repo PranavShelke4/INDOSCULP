@@ -1,0 +1,19 @@
+.Our_Location{
+   background-color: #0B4068;
+   text-align: center;
+   padding: 6%;
+}
+
+.map{
+    height: 600px;
+}
+
+.mark1{
+    position: absolute;
+    bottom: -90px;
+    right: 525px;
+}
+
+.mark1:hover{
+    width: 60px;
+}
