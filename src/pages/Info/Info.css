@@ -1,0 +1,27 @@
+.info{
+    margin-top: 5%;
+}
+
+#page_info2{
+    height: 200px;
+    opacity: .9;
+    margin-top: 5.1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    background-color: #0B4068 !important;
+}
+
+.nav-tabs{
+   margin-left: 40%;
+   margin-top: 1%;
+}
+
+#noanim-tab-example-tab-Sales_Distributors, #noanim-tab-example-tab-Contact_request, #noanim-tab-example-tab-Our_location{
+    padding: 5%;
+}
+
+
+
+  
