@@ -1,85 +1,92 @@
-
-.logo{
-    width: 200px;
-    height: 45px;
-    margin-bottom: 3%;
+a {
+  text-decoration: none !important;
+  color: #000 !important;
 }
 
-span{
-    font-size: 25px;
-    color: #329ED6;
+li {
+  text-decoration: none;
+}
+.logo {
+  width: 200px;
+  height: 45px;
+  margin-bottom: 3%;
 }
 
-.about{
-    background-color: rgba(243, 243, 243, 1);
-    text-align: center;
-    height: 300px;
-    padding: 1%;
-    float: left;
+span {
+  font-size: 25px;
+  color: #329ed6;
 }
 
-.sec_div{
-    padding: 3%;
-    background-color: #202124;
-    height: 300px;
-    float: right;
-    /* margin-top: -300px;
-    margin-left: 506px; */
+.about {
+  background-color: rgba(243, 243, 243, 1);
+  text-align: center;
+  height: 300px;
+  padding: 1%;
+  float: left;
 }
 
-.Our_Products{
-    display: inline-table;
-    color: white;
+.sec_div {
+  padding: 2%;
+  background-color: #202124;
+  float: right;
+}
+.sec_div ul {
+  padding: 2%;
 }
 
-.Contact_Us{
-    display: inline-table;
-    color: white;
-    /* margin-left: 33%;
-    margin-top: -18%; */
+.Our_Products {
+  display: inline-table;
+  color: white;
 }
 
-.Quick_Links{
-    display: inline-table;
-    color: white;
-    /* margin-left: 68%;
-    margin-top: -21%; */
+.Contact_Us {
+  display: inline-table;
+  color: white;
+}
+.contact_para {
+  padding: 2%;
 }
 
-h4{
-    padding-bottom: 2%;
+.Quick_Links {
+  display: inline-table;
+  color: white;
+}
+.Contact_Us svg {
+  fill: #202124 !important;
+}
+.Contact_Us a {
+  color: white !important;
 }
 
-.social{
-    padding-bottom: 3%;
-    padding-right: 2%;
+h4 {
+  padding-bottom: 2%;
 }
 
-.Copyright{
-    font-size: small;
+.Copyright {
+  font-size: small;
 }
 
-.pages{
-    color: white !important;
+.pages {
+  color: white !important;
 }
 
 @media only screen and (max-width: 600px) {
+  .about {
+    padding: 5%;
+    height: auto;
+  }
 
-    .about{
-        padding: 5%;
-        height: auto;
-    }
+  .sec_div {
+    height: auto;
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 10%;
+  }
 
-    .sec_div{
-        height: auto;
-        width: 100%;
-        padding-top: 10%;
-        padding-left: 10%;
-    }
-
-    .Contact_Us{
-        margin-bottom: 5%;
-        margin-right: 5%;
-    }
-  
+  .Contact_Us {
+    margin-right: 5%;
+  }
+  .Quick_Links {
+    margin-bottom: 5%;
+  }
 }

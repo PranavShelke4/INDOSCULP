@@ -6,7 +6,7 @@ const Media = () => {
   const Social = () => (
     <>
       <div
-        class="social-btn flex-center"
+        className="social-btn flex-center"
         id="arrow"
         onClick={() => {
           setArrow(!arrow);
@@ -14,15 +14,15 @@ const Media = () => {
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="icon icon-tabler icon-tabler-arrows-down"
+          className="icon icon-tabler icon-tabler-arrows-down"
           width="24"
           height="24"
           viewBox="0 0 24 24"
-          stroke-width="1.5"
+          strokeWidth="1.5"
           stroke="#ffffff"
           fill="none"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         >
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
           <line x1="7" y1="21" x2="7" y2="3" />
@@ -31,7 +31,7 @@ const Media = () => {
           <line x1="17" y1="21" x2="17" y2="3" />
         </svg>
       </div>
-      <div class="social-btn flex-center" id="youtube">
+      <div className="social-btn flex-center" id="youtube">
         <a href="https://www.youtube.com/channel/UCBILQdq25WgQSXE7fPOt7-Q">
           <svg
             fill="#000000"
@@ -44,7 +44,7 @@ const Media = () => {
           </svg>
         </a>
       </div>
-      <div class="social-btn flex-center" id="twitter">
+      <div className="social-btn flex-center" id="twitter">
         <a href="https://www.youtube.com/channel/UCBILQdq25WgQSXE7fPOt7-Q">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ const Media = () => {
           </svg>
         </a>
       </div>
-      <div class="social-btn flex-center" id="linkedin">
+      <div className="social-btn flex-center" id="linkedin">
         <a href="https://www.linkedin.com/company/indosculp/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -68,73 +68,49 @@ const Media = () => {
           </svg>
         </a>
       </div>
-      <div class="social-btn flex-center" id="instagram">
+      <div className="social-btn flex-center" id="instagram">
         <a href="https://www.instagram.com/indosculp/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 48 48"
-            width="40"
-            height="40"
+            className="icon icon-tabler icon-tabler-brand-instagram"
+            width="35"
+            height="35"
+            viewBox="0 0 24 24"
+            strokeWidth="2.5"
+            stroke="white"
+            fill="#f09433"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
-            <radialGradient
-              id="yOrnnhliCrdS2gy~4tD8ma"
-              cx="19.38"
-              cy="42.035"
-              r="44.899"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop offset="0" stop-color="#fd5" />
-              <stop offset=".328" stop-color="#ff543f" />
-              <stop offset=".348" stop-color="#fc5245" />
-              <stop offset=".504" stop-color="#e64771" />
-              <stop offset=".643" stop-color="#d53e91" />
-              <stop offset=".761" stop-color="#cc39a4" />
-              <stop offset=".841" stop-color="#c837ab" />
-            </radialGradient>
-            <path
-              fill="url(#yOrnnhliCrdS2gy~4tD8ma)"
-              d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"
-            />
-            <radialGradient
-              id="yOrnnhliCrdS2gy~4tD8mb"
-              cx="11.786"
-              cy="5.54"
-              r="29.813"
-              gradientTransform="matrix(1 0 0 .6663 0 1.849)"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop offset="0" stop-color="#4168c9" />
-              <stop offset=".999" stop-color="#4168c9" stop-opacity="0" />
-            </radialGradient>
-            <path
-              fill="url(#yOrnnhliCrdS2gy~4tD8mb)"
-              d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"
-            />
-            <path
-              fill="#fff"
-              d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"
-            />
-            <circle cx="31.5" cy="16.5" r="1.5" fill="#fff" />
-            <path
-              fill="#fff"
-              d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"
-            />
+            <defs>
+              <linearGradient id="MyGradient">
+                <stop offset="0%" stopColor="#e6683c" />
+                <stop offset="25%" stopColor="#e6683c" />
+                <stop offset="50%" stopColor="#dc2743" />
+                <stop offset="75%" stopColor="#cc2366" />
+                <stop offset="100%" stopColor="#cc2366" />
+              </linearGradient>
+            </defs>
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="4" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
           </svg>
         </a>
       </div>
-      <div class="social-btn flex-center" id="facebook">
+      <div className="social-btn flex-center" id="facebook">
         <a href="https://www.facebook.com/indosculpgearbox">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-facebook"
+            className="icon icon-tabler icon-tabler-brand-facebook"
             width="28"
             height="28"
             viewBox="0 0 24 24"
-            stroke-width="0.8"
+            strokeWidth="0.8"
             stroke="#ffffff"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
@@ -144,12 +120,12 @@ const Media = () => {
     </>
   );
   return (
-    <div class="social-links">
+    <div className="social-links">
       {arrow ? (
         <Social />
       ) : (
         <div
-          class="arrow-btn flex-center"
+          className="arrow-btn flex-center"
           id="arrow-up"
           onClick={() => {
             setArrow(!arrow);
@@ -157,15 +133,15 @@ const Media = () => {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-arrows-up"
+            className="icon icon-tabler icon-tabler-arrows-up"
             width="24"
             height="24"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="#ffffff"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <line x1="17" y1="3" x2="17" y2="21" />

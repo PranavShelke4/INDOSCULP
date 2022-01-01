@@ -38,22 +38,22 @@ const Header = () => {
               title={<b>Products</b>}
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item id="nav_dropdown_item" href="/ps25">
+              <NavDropdown.Item id="nav_dropdown_item" href="/PS25">
                 PS25 Foot Type
               </NavDropdown.Item>
-              <NavDropdown.Item id="nav_dropdown_item" href="/">
+              <NavDropdown.Item id="nav_dropdown_item" href="/PS25">
                 PS25 Flange Type
               </NavDropdown.Item>
-              <NavDropdown.Item id="nav_dropdown_item" href="/">
+              <NavDropdown.Item id="nav_dropdown_item" href="/PS25">
                 PS30 Foot Type
               </NavDropdown.Item>
-              <NavDropdown.Item id="nav_dropdown_item" href="/">
+              <NavDropdown.Item id="nav_dropdown_item" href="/PS25">
                 PS30 Flange Type
               </NavDropdown.Item>
-              <NavDropdown.Item id="nav_dropdown_item" href="/">
+              <NavDropdown.Item id="nav_dropdown_item" href="/PS25">
                 PS35 Foot Type
               </NavDropdown.Item>
-              <NavDropdown.Item id="nav_dropdown_item" href="/">
+              <NavDropdown.Item id="nav_dropdown_item" href="/PS25">
                 PS35 Flange Type
               </NavDropdown.Item>
             </NavDropdown>
@@ -128,35 +128,20 @@ const Header = () => {
               <div className="contact-info">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-mail"
+                  className="icon icon-tabler icon-tabler-mail"
                   width="30"
                   height="30"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  strokeWidth="1.5"
                   stroke="black"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <rect x="3" y="5" width="18" height="14" rx="2" />
                   <polyline points="3 7 12 13 21 7" />
                 </svg>
-                {/* <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-border-vertical"
-                  width="30"
-                  height="55"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="#000000"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <line x1="12" y1="4" x2="12" y2="20" />
-                </svg> */}
                 <samp>CONTACT US</samp>
               </div>
             </Nav.Link>
