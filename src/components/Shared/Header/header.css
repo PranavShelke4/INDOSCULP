@@ -7,6 +7,10 @@
   transition: top 0.3s;
   text-align: center;
 }
+/* .contact-info svg {
+  background-color: black;
+  stroke: black;
+} */
 
 .navbar-brand img {
   width: 300px;
