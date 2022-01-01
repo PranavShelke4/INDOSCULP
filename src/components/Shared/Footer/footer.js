@@ -74,8 +74,8 @@ const Footer = () => {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="icon icon-tabler icon-tabler-map-pin mx-1"
-                  width="30"
-                  height="30"
+                  width="28"
+                  height="28"
                   viewBox="0 0 24 24"
                   strokeWidth="3"
                   stroke="#ffffff"
@@ -87,7 +87,10 @@ const Footer = () => {
                   <circle cx="12" cy="11" r="3" />
                   <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
                 </svg>
-                <a href="https://goo.gl/maps/qtaBphAdswoRxAHj7">
+                <a
+                  href="https://goo.gl/maps/qtaBphAdswoRxAHj7"
+                  style={{ padding: 0, margin: 0 }}
+                >
                   A-67, M.I.D.C. Ahmednagar, Mahrashtra INDIA - 414111
                 </a>
               </p>

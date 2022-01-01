@@ -62,11 +62,6 @@ h4 {
   padding-bottom: 2%;
 }
 
-.social {
-  padding-bottom: 3%;
-  padding-right: 2%;
-}
-
 .Copyright {
   font-size: small;
 }
@@ -89,7 +84,9 @@ h4 {
   }
 
   .Contact_Us {
-    margin-bottom: 5%;
     margin-right: 5%;
+  }
+  .Quick_Links {
+    margin-bottom: 5%;
   }
 }
