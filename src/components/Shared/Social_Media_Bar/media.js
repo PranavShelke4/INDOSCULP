@@ -6,7 +6,7 @@ const Media = () => {
   const Social = () => (
     <>
       <div
-        class="social-btn flex-center"
+        className="social-btn flex-center"
         id="arrow"
         onClick={() => {
           setArrow(!arrow);
@@ -14,15 +14,15 @@ const Media = () => {
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="icon icon-tabler icon-tabler-arrows-down"
+          className="icon icon-tabler icon-tabler-arrows-down"
           width="24"
           height="24"
           viewBox="0 0 24 24"
-          stroke-width="1.5"
+          strokeWidth="1.5"
           stroke="#ffffff"
           fill="none"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         >
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
           <line x1="7" y1="21" x2="7" y2="3" />
@@ -31,7 +31,7 @@ const Media = () => {
           <line x1="17" y1="21" x2="17" y2="3" />
         </svg>
       </div>
-      <div class="social-btn flex-center" id="youtube">
+      <div className="social-btn flex-center" id="youtube">
         <a href="https://www.youtube.com/channel/UCBILQdq25WgQSXE7fPOt7-Q">
           <svg
             fill="#000000"
@@ -44,7 +44,7 @@ const Media = () => {
           </svg>
         </a>
       </div>
-      <div class="social-btn flex-center" id="twitter">
+      <div className="social-btn flex-center" id="twitter">
         <a href="https://www.youtube.com/channel/UCBILQdq25WgQSXE7fPOt7-Q">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ const Media = () => {
           </svg>
         </a>
       </div>
-      <div class="social-btn flex-center" id="linkedin">
+      <div className="social-btn flex-center" id="linkedin">
         <a href="https://www.linkedin.com/company/indosculp/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -68,27 +68,27 @@ const Media = () => {
           </svg>
         </a>
       </div>
-      <div class="social-btn flex-center" id="instagram">
+      <div className="social-btn flex-center" id="instagram">
         <a href="https://www.instagram.com/indosculp/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-instagram"
+            className="icon icon-tabler icon-tabler-brand-instagram"
             width="35"
             height="35"
             viewBox="0 0 24 24"
-            stroke-width="2.5"
+            strokeWidth="2.5"
             stroke="white"
             fill="#f09433"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <defs>
               <linearGradient id="MyGradient">
-                <stop offset="0%" stop-color="#e6683c" />
-                <stop offset="25%" stop-color="#e6683c" />
-                <stop offset="50%" stop-color="#dc2743" />
-                <stop offset="75%" stop-color="#cc2366" />
-                <stop offset="100%" stop-color="#cc2366" />
+                <stop offset="0%" stopColor="#e6683c" />
+                <stop offset="25%" stopColor="#e6683c" />
+                <stop offset="50%" stopColor="#dc2743" />
+                <stop offset="75%" stopColor="#cc2366" />
+                <stop offset="100%" stopColor="#cc2366" />
               </linearGradient>
             </defs>
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -98,19 +98,19 @@ const Media = () => {
           </svg>
         </a>
       </div>
-      <div class="social-btn flex-center" id="facebook">
+      <div className="social-btn flex-center" id="facebook">
         <a href="https://www.facebook.com/indosculpgearbox">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-facebook"
+            className="icon icon-tabler icon-tabler-brand-facebook"
             width="28"
             height="28"
             viewBox="0 0 24 24"
-            stroke-width="0.8"
+            strokeWidth="0.8"
             stroke="#ffffff"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
@@ -120,12 +120,12 @@ const Media = () => {
     </>
   );
   return (
-    <div class="social-links">
+    <div className="social-links">
       {arrow ? (
         <Social />
       ) : (
         <div
-          class="arrow-btn flex-center"
+          className="arrow-btn flex-center"
           id="arrow-up"
           onClick={() => {
             setArrow(!arrow);
@@ -133,15 +133,15 @@ const Media = () => {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-arrows-up"
+            className="icon icon-tabler icon-tabler-arrows-up"
             width="24"
             height="24"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="#ffffff"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <line x1="17" y1="3" x2="17" y2="21" />

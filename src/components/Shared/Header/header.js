@@ -128,15 +128,15 @@ const Header = () => {
               <div className="contact-info">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-mail"
+                  className="icon icon-tabler icon-tabler-mail"
                   width="30"
                   height="30"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  strokeWidth="1.5"
                   stroke="black"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <rect x="3" y="5" width="18" height="14" rx="2" />
@@ -144,15 +144,15 @@ const Header = () => {
                 </svg>
                 {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-border-vertical"
+                  className="icon icon-tabler icon-tabler-border-vertical"
                   width="30"
                   height="55"
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="#000000"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <line x1="12" y1="4" x2="12" y2="20" />
