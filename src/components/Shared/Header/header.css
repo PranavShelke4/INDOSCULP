@@ -7,6 +7,14 @@
   transition: top 0.3s;
   text-align: center;
 }
+
+.dropdown-toggle::after {
+  vertical-align: 2px !important;
+  border-top: 0.39em solid !important;
+  border-right: 0.39em solid transparent !important;
+  border-bottom: 0 !important;
+  border-left: 0.39em solid transparent !important;
+}
 /* .contact-info svg {
   background-color: black;
   stroke: black;
@@ -61,9 +69,25 @@
   .navbar {
     background-color: white;
     opacity: 1;
+    /* flex-direction: column !important; */
+    /* flex-wrap: nowrap !important; */
+  }
+  .nav-dropdown {
+    margin-right: 0 !important;
+    text-align: center !important;
+  }
+  #navbar {
+    padding: 0 !important;
+    text-align: center !important;
   }
   .navbar-brand img {
     width: 180px;
+  }
+  .dropdown-menu {
+    padding: 0 !important;
+  }
+  .dropdown-menu {
+    margin-top: 0 !important;
   }
   .nav-link {
     background-color: white;
@@ -73,17 +97,10 @@
     margin-left: -10px;
   }
 
-  .bg {
-    padding-top: 10%;
-  }
-
-  .show {
-    width: 110%;
-    margin-left: -10px;
-    margin-top: -4px;
-  }
-
   #nav_dropdown_item {
     text-align: center;
+  }
+  .contact-info {
+    justify-content: center !important;
   }
 }

@@ -7,7 +7,7 @@ import Agriculture from "../pages/Agriculture/Agriculture";
 import PS25 from "../pages/PS25/PS25";
 import Media from "../components/Shared/Social_Media_Bar/media";
 import ContactBar from "../components/Shared/Social_Media_Bar/contactBar";
-import InfoPage from "../pages/Info/Info"
+import InfoPage from "../pages/Info/Info";
 
 const ConfigRoutes = () => {
   return (

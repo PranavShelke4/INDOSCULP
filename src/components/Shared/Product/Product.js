@@ -54,85 +54,79 @@ function Product() {
               </a>
           </div>
         </div> */}
-        <div className="d-flex flex-column flex-sm-column product">
-          <div className="d-flex flex-md-row flex-sm-column">
-            <a href="/PS25">
-              <div className="rounded" id="productCard">
-                <img className="productImg" src={product} alt="product1" />
-                <div className="p-2">
-                  <h3>PS25 Foot Type</h3>
-                  <p>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+        <div className="d-flex flex-md-row flex-sm-column flex-wrap justify-content-center">
+          <a href="/PS25">
+            <div className="rounded" id="productCard">
+              <img className="productImg" src={product} alt="product1" />
+              <div className="p-2">
+                <h3>PS25 Foot Type</h3>
+                <p>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
-            </a>
-            <a href="/PS25">
-              <div className="rounded" id="productCard">
-                <img className="productImg" src={product} alt="product1" />
-                <div className="p-2">
-                  <h3>PS25 Flange Type</h3>
-                  <p>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+            </div>
+          </a>
+          <a href="/PS25">
+            <div className="rounded" id="productCard">
+              <img className="productImg" src={product} alt="product1" />
+              <div className="p-2">
+                <h3>PS25 Flange Type</h3>
+                <p>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card.
+                </p>
               </div>
-            </a>
-          </div>
-          <div className="d-flex flex-md-row flex-sm-column">
-            <a href="/PS25">
-              <div className="rounded" id="productCard">
-                <img className="productImg" src={product} alt="product1" />
-                <div className="p-2">
-                  <h3>PS30 Foot Type</h3>
-                  <p>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+            </div>
+          </a>
+          <a href="/PS25">
+            <div className="rounded" id="productCard">
+              <img className="productImg" src={product} alt="product1" />
+              <div className="p-2">
+                <h3>PS30 Foot Type</h3>
+                <p>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
-            </a>
-            <a href="/PS25">
-              <div className="rounded" id="productCard">
-                <img className="productImg" src={product} alt="product1" />
-                <div className="p-2">
-                  <h3>PS30 Flange Type</h3>
-                  <p>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+            </div>
+          </a>
+          <a href="/PS25">
+            <div className="rounded" id="productCard">
+              <img className="productImg" src={product} alt="product1" />
+              <div className="p-2">
+                <h3>PS30 Flange Type</h3>
+                <p>
+                  Some quick example text to build on the card title and make up
+                  the bulkof the card.
+                </p>
               </div>
-            </a>
-          </div>
-          <div className="d-flex flex-md-row flex-sm-column">
-            <a href="/PS25">
-              <div className="rounded" id="productCard">
-                <img className="productImg" src={product} alt="product1" />
-                <div className="p-2">
-                  <h3>PS35 Foot Type</h3>
-                  <p>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+            </div>
+          </a>
+          <a href="/PS25">
+            <div className="rounded" id="productCard">
+              <img className="productImg" src={product} alt="product1" />
+              <div className="p-2">
+                <h3>PS35 Foot Type</h3>
+                <p>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
-            </a>
-            <a href="/PS25">
-              <div className="rounded" id="productCard">
-                <img className="productImg" src={product} alt="product1" />
-                <div className="p-2">
-                  <h3>PS35 Flange Type</h3>
-                  <p>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
+            </div>
+          </a>
+          <a href="/PS25">
+            <div className="rounded" id="productCard">
+              <img className="productImg" src={product} alt="product1" />
+              <div className="p-2">
+                <h3>PS35 Flange Type</h3>
+                <p>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card.
+                </p>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
 
         {/* <div className="row" id="products">

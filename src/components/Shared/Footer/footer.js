@@ -34,32 +34,32 @@ const Footer = () => {
             </div>
             <ul>
               <li>
-                <a className="pages" href="/">
+                <a className="pages" href="/PS25">
                   PS25 Foot Type
                 </a>
               </li>
               <li>
-                <a className="pages" href="/">
+                <a className="pages" href="/PS25">
                   PS25 Flange Type
                 </a>
               </li>
               <li>
-                <a className="pages" href="/">
+                <a className="pages" href="/PS25">
                   PS30 Foot Type
                 </a>
               </li>
               <li>
-                <a className="pages" href="/">
+                <a className="pages" href="/PS25">
                   PS30 Flange Type
                 </a>
               </li>
               <li>
-                <a className="pages" href="/">
+                <a className="pages" href="/PS25">
                   PS35 Foot Type
                 </a>
               </li>
               <li>
-                <a className="pages" href="/">
+                <a className="pages" href="/PS25">
                   PS35 Flange Type
                 </a>
               </li>
@@ -70,13 +70,14 @@ const Footer = () => {
             <h4>Contact Us</h4>
             <div className="contact_para">
               <p className="d-flex flex-row py-0 my-1">
+                {/* <a href=""></a> */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="icon icon-tabler icon-tabler-map-pin mx-1"
                   width="30"
                   height="30"
                   viewBox="0 0 24 24"
-                  strokeWidth="1"
+                  strokeWidth="3"
                   stroke="#ffffff"
                   fill="none"
                   strokeLinecap="round"
@@ -86,67 +87,73 @@ const Footer = () => {
                   <circle cx="12" cy="11" r="3" />
                   <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
                 </svg>
-                A-67, M.I.D.C. Ahmednagar, Mahrashtra INDIA - 414111
+                <a href="https://goo.gl/maps/qtaBphAdswoRxAHj7">
+                  A-67, M.I.D.C. Ahmednagar, Mahrashtra INDIA - 414111
+                </a>
               </p>
               {/* <br /> */}
               <p className="d-flex flex-row py-0 my-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-mail mx-1"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1"
-                  stroke="#ffffff"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <rect x="3" y="5" width="18" height="14" rx="2" />
-                  <polyline points="3 7 12 13 21 7" />
-                </svg>
-                indosculp@gmail.com
+                <a href="mailto:indosculp@gmail.com">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="icon icon-tabler icon-tabler-mail mx-1"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    strokeWidth="3"
+                    stroke="#ffffff"
+                    fill="#202124"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="#202124" />
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <polyline points="3 7 12 13 21 7" />
+                  </svg>
+                  indosculp@gmail.com
+                </a>
               </p>
               {/* <br /> */}
               <p className="d-flex flex-row py-0 my-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-phone mx-1"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1"
-                  stroke="#ffffff"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-                </svg>
-                +91 0241 2778844
+                <a href="tel:+9102412778844">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="icon icon-tabler icon-tabler-phone mx-1"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    strokeWidth="3"
+                    stroke="#ffffff"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                  </svg>
+                  +91 0241 2778844
+                </a>
               </p>
-              {/* <br /> */}
               <p className="d-flex flex-row py-0 my-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-phone mx-1"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1"
-                  stroke="#ffffff"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-                </svg>
-                +91 0241 2779584
+                <a href="tel:+9102412778844">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="icon icon-tabler icon-tabler-phone mx-1"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    strokeWidth="3"
+                    stroke="#ffffff"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                  </svg>
+                  +91 0241 2779584
+                </a>
               </p>
-              {/* <br /> */}
             </div>
           </div>
 
@@ -159,14 +166,14 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a className="pages" href="/">
+                <a className="pages" href="/info">
                   Contact Us
-                </a>{" "}
+                </a>
               </li>
               <li>
                 <a className="pages" href="/">
                   Products
-                </a>{" "}
+                </a>
               </li>
               <li>
                 <a className="pages" href="/">

@@ -1,6 +1,8 @@
 a {
   text-decoration: none !important;
+  color: #000 !important;
 }
+
 li {
   text-decoration: none;
 }
@@ -26,10 +28,7 @@ span {
 .sec_div {
   padding: 2%;
   background-color: #202124;
-  /* height: 300px; */
   float: right;
-  /* margin-top: -300px;
-    margin-left: 506px; */
 }
 .sec_div ul {
   padding: 2%;
@@ -43,8 +42,6 @@ span {
 .Contact_Us {
   display: inline-table;
   color: white;
-  /* margin-left: 33%;
-    margin-top: -18%; */
 }
 .contact_para {
   padding: 2%;
@@ -53,8 +50,12 @@ span {
 .Quick_Links {
   display: inline-table;
   color: white;
-  /* margin-left: 68%;
-    margin-top: -21%; */
+}
+.Contact_Us svg {
+  fill: #202124 !important;
+}
+.Contact_Us a {
+  color: white !important;
 }
 
 h4 {
