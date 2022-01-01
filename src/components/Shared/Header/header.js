@@ -124,7 +124,7 @@ const Header = () => {
             </Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="/">
+            <Nav.Link href="/info">
               <div className="contact-info">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
