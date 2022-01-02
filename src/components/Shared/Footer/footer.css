@@ -63,11 +63,17 @@ h4 {
 }
 
 .Copyright {
-  font-size: small;
+  margin-bottom: 0;
+}
+.Quick_Links {
+  margin-bottom: 0;
 }
 
 .pages {
   color: white !important;
+}
+.Quick_Links {
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 600px) {
