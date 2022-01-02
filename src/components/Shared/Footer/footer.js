@@ -9,7 +9,7 @@ import logo from "../../../assets/icon/LOGO_new.png";
 const Footer = () => {
   return (
     <>
-      <footer>
+      <footer className="footer">
         <div className="about col-lg-4 col-md-12 col-sm-12">
           <img alt="" className="logo" src={logo} />
 
