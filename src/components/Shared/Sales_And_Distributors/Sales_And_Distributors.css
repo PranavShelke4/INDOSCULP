@@ -1,0 +1,14 @@
+.person_info{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+    width: 23rem;
+    margin: 2%;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+#SUBSIDIARIES{
+
+}

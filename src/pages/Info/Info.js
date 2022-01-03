@@ -3,6 +3,7 @@ import "./Info.css";
 import { Tab, Tabs } from "react-bootstrap";
 import ContactRequest from "../../components/Shared/Contact_request/Contact_request";
 import OurLocation from "../../components/Shared/Our_location/Our_location";
+import SalesAndDistributors from "../../components/Shared/Sales_And_Distributors/Sales_And_Distributors";
 
 function Info(props) {
   return (
@@ -25,7 +26,7 @@ function Info(props) {
             eventKey="Sales_Distributors"
             title="Sales & Distributors"
           >
-            hii
+            <SalesAndDistributors />
           </Tab>
           <Tab
             className="tab"
