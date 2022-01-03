@@ -5,7 +5,7 @@ import ContactRequest from "../../components/Shared/Contact_request/Contact_requ
 import OurLocation from "../../components/Shared/Our_location/Our_location";
 import SalesAndDistributors from "../../components/Shared/Sales_And_Distributors/Sales_And_Distributors";
 
-function Info(props) {
+function Info() {
   return (
     <div className="info">
       <div id="page_info2">
