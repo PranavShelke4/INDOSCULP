@@ -23,9 +23,20 @@
     padding: 5%;
 }
 
+#noanim-tab-example-tab-Sales_Distributors:hover{
+    background-color: #00507E;
+    color: white !important;
+}
 
+#noanim-tab-example-tab-Contact_request:hover{
+    background-color: #00507E;
+    color: white !important;
+}
 
-
+#noanim-tab-example-tab-Our_location:hover{
+    background-color: #00507E;
+    color: white !important;
+}
 
 
   

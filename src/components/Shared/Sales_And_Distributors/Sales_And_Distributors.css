@@ -8,7 +8,22 @@
     flex-direction: column;
     padding: 3%;
 }
+#noanim-tab-example-tabpane-Sales_Distributors{
+    background-color: #F5F5F5;
+}
 
-#SUBSIDIARIES{
 
+#SUBSIDIARIESs{
+    margin-bottom: -1%;
+    color: #51A4E1;
+}
+
+#company_name{
+    font-size: larger;
+    color: #0C4773;
+    margin-bottom: -2%;
+}
+
+#Function{
+    margin-top: -5%;
 }
