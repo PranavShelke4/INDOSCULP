@@ -10,7 +10,7 @@ function Info() {
     <div className="info">
       <div id="page_info2">
         <div className="bg2">
-          <div className="title">Find Your Contact: Sales & Distributors</div>
+          <div className="title3">Find Your Contact: Sales & Distributors</div>
         </div>
       </div>
 
