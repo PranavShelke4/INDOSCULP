@@ -13,6 +13,12 @@
     background-color: #0B4068 !important;
 }
 
+.title3{
+    color: white !important;
+    font-size: 4rem;
+    padding-top: 3%;
+}
+
 .nav-tabs{
    margin-left: 35%;
    margin-top: 1%;
@@ -38,5 +44,23 @@
     color: white !important;
 }
 
+@media only screen and (max-width: 600px) {
 
+    .nav-tabs{
+        width: 99%;
+        margin: 2%;
+
+     }
+
+     #page_info2{
+         height: auto;
+         margin-top: 20%;
+     }
+
+     .title3{
+         font-size: xx-large;
+     }
+
+  }
+  
   
