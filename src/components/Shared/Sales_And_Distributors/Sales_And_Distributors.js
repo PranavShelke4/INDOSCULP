@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap'
 function Sales_And_Distributors() {
     return (
         <Container>
-        
+          <div className=''>
             <div className='person_info'>
                 <p id='SUBSIDIARIES'>SUBSIDIARIES</p>
                 <p id='company_name'><b>Bonfiglioli Transmissions Private Limited</b></p><br/>
@@ -143,7 +143,7 @@ function Sales_And_Distributors() {
                     </svg><a href='/'>  contact here</a>
                 </p>
             </div>
-
+            </div>
         </Container>
     )
 }
