@@ -37,8 +37,12 @@
 .nav-link:hover {
   /* color: #329ed6 !important; */
   
-  border-bottom: 3px solid black;
-  border-top: 3px solid black;
+  /* border-bottom: solid black; */
+
+  background-color: lightgray;
+  transition: all 1s;
+  transform: scale(1.10);
+
 }
 
 
