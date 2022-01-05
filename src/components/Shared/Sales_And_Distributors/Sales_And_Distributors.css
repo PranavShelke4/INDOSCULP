@@ -7,6 +7,7 @@
     display: inline-flex;
     flex-direction: column;
     padding: 3%;
+    justify-content: center;
 }
 #noanim-tab-example-tabpane-Sales_Distributors{
     background-color: #F5F5F5;

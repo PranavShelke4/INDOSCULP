@@ -20,9 +20,10 @@
 }
 
 .nav-tabs{
-   margin-left: 35%;
+   /* margin-left: 35%; */
+   justify-content: center;
    margin-top: 1%;
-   width: 400px;
+
 }
 
 #noanim-tab-example-tab-Sales_Distributors, #noanim-tab-example-tab-Contact_request, #noanim-tab-example-tab-Our_location{
@@ -49,7 +50,7 @@
     .nav-tabs{
         width: 99%;
         margin: 2%;
-
+        justify-content: center;
      }
 
      #page_info2{
