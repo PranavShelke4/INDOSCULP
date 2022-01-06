@@ -20,7 +20,7 @@
   z-index: 989880;
   cursor: pointer;
   height: 40px;
-  width: 15rem;
+  width: 13rem;
   padding: 1rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -40,7 +40,7 @@
   text-align: center;
   padding-right: 1rem;
   color: rgb(255, 255, 255);
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .mail-btn:hover {
@@ -49,7 +49,7 @@
 
 .mail-btn:hover samp {
   /* padding: 2px; */
-  width: max-content;
+  width: content;
 }
 
 #mail {
