@@ -83,13 +83,13 @@ const Media = () => {
             strokeLinejoin="round"
           >
             <defs>
-              <linearGradient id="MyGradient">
+              {/* <linearGradient id="MyGradient">
                 <stop offset="0%" stopColor="#e6683c" />
                 <stop offset="25%" stopColor="#e6683c" />
                 <stop offset="50%" stopColor="#dc2743" />
                 <stop offset="75%" stopColor="#cc2366" />
                 <stop offset="100%" stopColor="#cc2366" />
-              </linearGradient>
+              </linearGradient> */}
             </defs>
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <rect x="4" y="4" width="16" height="16" rx="4" />

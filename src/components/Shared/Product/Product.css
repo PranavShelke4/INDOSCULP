@@ -38,7 +38,7 @@ p{
 }
 
 h3{
-  font-size: 23px !important;
+  font-size: 20px !important;
 }
 
 #productCard {
@@ -51,6 +51,8 @@ h3{
     0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
   cursor: pointer;
   margin: 1rem;
+  min-height: 26.875rem;
+  /* height: 173px; */
 }
 
 #productCard:hover {
