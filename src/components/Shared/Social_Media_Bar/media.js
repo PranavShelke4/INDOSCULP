@@ -32,7 +32,7 @@ const Media = () => {
         </svg>
       </div>
       <div className="social-btn flex-center" id="youtube">
-        <a href="https://www.youtube.com/channel/UCBILQdq25WgQSXE7fPOt7-Q">
+        <a href="https://www.youtube.com/channel/UCBILQdq25WgQSXE7fPOt7-Q" target="_blank">
           <svg
             fill="#000000"
             xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const Media = () => {
         </a>
       </div>
       <div className="social-btn flex-center" id="twitter">
-        <a href="https://www.youtube.com/channel/UCBILQdq25WgQSXE7fPOt7-Q">
+        <a href="https://www.youtube.com/channel/UCBILQdq25WgQSXE7fPOt7-Q" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -57,7 +57,7 @@ const Media = () => {
         </a>
       </div>
       <div className="social-btn flex-center" id="linkedin">
-        <a href="https://www.linkedin.com/company/indosculp/">
+        <a href="https://www.linkedin.com/company/indosculp/" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -69,7 +69,7 @@ const Media = () => {
         </a>
       </div>
       <div className="social-btn flex-center" id="instagram">
-        <a href="https://www.instagram.com/indosculp/">
+        <a href="https://www.instagram.com/indosculp/" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-brand-instagram"
@@ -99,7 +99,7 @@ const Media = () => {
         </a>
       </div>
       <div className="social-btn flex-center" id="facebook">
-        <a href="https://www.facebook.com/indosculpgearbox">
+        <a href="https://www.facebook.com/indosculpgearbox" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-brand-facebook"

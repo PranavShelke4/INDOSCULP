@@ -76,6 +76,7 @@ const Footer = () => {
                   className="d-flex flex-row py-0 my-1"
                   href="https://goo.gl/maps/qtaBphAdswoRxAHj7"
                   style={{ padding: 0, margin: 0 }}
+                  target="_blank"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

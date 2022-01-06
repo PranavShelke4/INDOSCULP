@@ -17,10 +17,11 @@
 #SUBSIDIARIESs{
     margin-bottom: -1%;
     color: #51A4E1;
+    font-size: 14px;
 }
 
 #company_name{
-    font-size: larger;
+    font-size: 22px;
     color: #0C4773;
     margin-bottom: -2%;
 }
