@@ -80,7 +80,7 @@ iframe{
 
 
 #page_info{
-    height: 200px;
+    height: 160px;
     opacity: .9;
     margin-top: 81px;
     background-image: url(../../assets/img/Products/banner2.jpg);
@@ -93,8 +93,8 @@ iframe{
 
 .title{
     color: white !important;
-    font-size: 4rem;
-    padding-top: 3%;
+    font-size: 50px;
+    padding: 3%;
 }
 
 .bg{

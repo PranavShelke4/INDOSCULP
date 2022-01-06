@@ -24,7 +24,6 @@
   padding: 1rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  font-family: "Titillium Web", sans-serif;
   color: #333;
   background: white;
   /* transition: 1s; */
@@ -41,7 +40,7 @@
   text-align: center;
   padding-right: 1rem;
   color: rgb(255, 255, 255);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .mail-btn:hover {

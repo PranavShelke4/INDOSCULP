@@ -8,7 +8,7 @@ const Agriculture = () => {
         <div className='agriculture'>
             <div id='page_info'>
                 <div className='bg'>
-                    <div className='title'>Agriculture</div>
+                    <div className='title'><b>Agriculture</b></div>
                 </div>
             </div>
          <Container>
