@@ -3,9 +3,36 @@ import "./Info.css";
 import { Tab, Tabs } from "react-bootstrap";
 import ContactRequest from "../../components/Shared/Contact_request/Contact_request";
 import OurLocation from "../../components/Shared/Our_location/Our_location";
-import SalesAndDistributors from "../../components/Shared/Sales_And_Distributors/Sales_And_Distributors";
+import Data from "../../components/Shared/Sales_And_Distributors/data";
 
 function Info() {
+
+
+  const personInformation = [
+    {
+      id: 'e1',
+      subsidiaries: 'SUBSIDIARIES',
+      companyName: 'Bonfiglioli Transmissions Private Limited',
+      address: 'AC 7 - AC 11 Sidco Industrial Estate Thirumudivakkam Chennai - 600 044',
+      functions: 'Aftersales, Assembly, Manufacturing, Sales',
+      businessArea: 'Mobile, Wind',
+      number: '+91 844 844 8649',
+      gmail: 'asadaw@gmail.com'
+    },
+    {
+      id: 'e2',
+      subsidiaries: 'SUBSIDIARIES',
+      companyName: 'Bonfiglioli Transmissions Private Limited',
+      address: 'AC 7 - AC 11 Sidco Industrial Estate Thirumudivakkam Chennai - 600 044',
+      functions: 'Aftersales, Assembly, Manufacturing, Sales',
+      businessArea: 'Mobile, Wind',
+      number: '+91 844 844 8649',
+      gmail: 'asadaw@gmail.com'
+    }
+  ];
+
+
+
   return (
     <div className="info">
       <div id="page_info2">
@@ -26,7 +53,7 @@ function Info() {
             eventKey="Sales_Distributors"
             title="Sales & Distributors"
           >
-            <SalesAndDistributors />
+            <Data items={personInformation} />
           </Tab>
           <Tab
             className="tab"
@@ -40,40 +67,6 @@ function Info() {
           </Tab>
         </Tabs>
       </div>
-
-      {/* <div className='tabs'>
-
-                <button className="tablinks" onclick="openTab(event, 'Sales_And_Distributors')">
-                    <img className='img1' src="https://img.icons8.com/external-tal-revivo-solid-tal-revivo/48/000000/external-sales-and-marketing-with-shopping-cart-logotype-presentation-solid-tal-revivo.png" alt=''/>
-                    <h5>Sales & Distributors</h5>
-                </button>
-
-                <button className="tablinks" onclick="openTab(event, 'Contact_request')">
-                    <img className='img1' src="https://img.icons8.com/external-sbts2018-blue-sbts2018/50/000000/external-comment-social-media-basic-1-sbts2018-blue-sbts2018.png" alt=''/>
-                    <h5>Contact request</h5>
-                </button>
-
-                <button className="tablinks" onclick="openTab(event, 'Our_location')">
-                    <img className='img1' src="https://img.icons8.com/office/50/000000/worldwide-location.png" alt=''/>
-                    <h5>Our location</h5>
-                </button>
-
-            </div>
-
-            <div id="Sales_And_Distributors" className="tabcontent">
-            <h3>London</h3>
-            <p>London is the capital city of England.</p>
-            </div>
-
-            <div id="Paris" className="tabcontent">
-            <h3>Paris</h3>
-            <p>Paris is the capital of France.</p> 
-            </div>
-
-            <div id="Tokyo" className="tabcontent">
-            <h3>Tokyo</h3>
-            <p>Tokyo is the capital of Japan.</p>
-            </div> */}
     </div>
   );
 }
