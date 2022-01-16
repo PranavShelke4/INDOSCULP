@@ -49,7 +49,7 @@ function Info() {
           className="mb-3"
         >
           <Tab
-            className="tab"
+            className="tab w-100 justify-content-center"
             eventKey="Sales_Distributors"
             title="Sales & Distributors"
           >

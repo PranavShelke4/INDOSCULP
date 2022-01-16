@@ -1,12 +1,10 @@
 import React from 'react'
 import "./Sales_And_Distributors.css"
-import { Container } from 'react-bootstrap'
 
 function Sales_And_Distributors(props) {
     return (
-        <Container>
           
-          <div className='person_info '>
+          <div className='person_info w-100 '>
         
                 <p id='SUBSIDIARIES'>{props.subsidiaries}</p>
                 <p id='company_name'><b>{props.companyName}</b></p><br/>
@@ -30,8 +28,6 @@ function Sales_And_Distributors(props) {
                 </p>
 
             </div>
-            
-        </Container>
     )
 }
 
