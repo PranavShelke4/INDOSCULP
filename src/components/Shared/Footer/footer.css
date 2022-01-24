@@ -1,6 +1,7 @@
 a {
   text-decoration: none !important;
   color: #000 !important;
+  font-size: 12px;
 }
 
 li {
@@ -15,6 +16,10 @@ li {
 span {
   font-size: 25px;
   color: #329ed6;
+}
+
+.info-p{
+  font-size: 12px;
 }
 
 .about {
@@ -67,6 +72,7 @@ h4 {
 
 .Copyright {
   margin-bottom: 0;
+  font-size: 12px;
 }
 .Quick_Links {
   margin-bottom: 0;
@@ -75,8 +81,13 @@ h4 {
   padding-bottom: 10rem !important;
 }
 
+.cat{
+  font-size: 16px;
+}
+
 .pages {
   color: white !important;
+  font-size: 12px;
 }
 .Quick_Links {
   margin-bottom: 0;
