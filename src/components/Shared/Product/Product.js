@@ -20,6 +20,33 @@ const productdata = [
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
     productimg: require("../../../assets/img/Products/product.png"),
   },
+  {
+    id: "3",
+    productname: "PS30 Foot Type",
+    productinfo:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    productimg: require("../../../assets/img/Products/product.png"),
+  },
+  {
+    id: "4",
+    productname: "PS30 Flange Type",
+    productinfo:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    productimg: require("../../../assets/img/Products/product.png"),
+  },
+  {
+    id: "5",
+    productname: "PS35 Foot Type",
+    productinfo:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    productimg: require("../../../assets/img/Products/product.png"),
+  },{
+    id: "6",
+    productname: "PS35 Flange Type",
+    productinfo:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    productimg: require("../../../assets/img/Products/product.png"),
+  },
 ];
 
 function Product() {
