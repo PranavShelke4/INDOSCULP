@@ -21,7 +21,7 @@ const Footer = () => {
             gears, cluster gears, connecting shafts.
           </p>
 
-          <p className="Copyright">
+          <p className="Copyright pb-2">
             Copyright &copy; 2020, All Right Reserved{" "}
             <a href="https://www.indosculp.com/">Indosculp</a>
           </p>
