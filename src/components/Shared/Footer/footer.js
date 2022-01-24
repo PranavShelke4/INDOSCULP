@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "./footer.css";
 
@@ -13,7 +14,7 @@ const Footer = () => {
         <div className="about col-lg-4 col-md-12 col-sm-12">
           <img alt="" className="logo" src={logo} />
 
-          <p className="d-flex flex-row py-0 my-1">
+          <p className="d-flex flex-row py-0 my-1 info-p">
             Incepted in the year 2007, Indosculp Auto comp Pvt. Ltd is one of
             the leading manufacturers and suppliers of an assortment of various
             engineering components such as finish Auto-gear components,
@@ -23,14 +24,14 @@ const Footer = () => {
 
           <p className="Copyright">
             Copyright &copy; 2020, All Right Reserved{" "}
-            <a href="https://www.indosculp.com/">Indosculp</a>
+            <a className="Copyright" href="https://www.indosculp.com/">Indosculp</a>
           </p>
         </div>
 
         <div className="sec_div col-lg-8 col-md-12 col-sm-12">
           <div className="Our_Products col-lg-4 col-md-12 col-sm-12">
             <div>
-              <h4>Our Products</h4>
+              <h4 className="cat">Our Products</h4>
             </div>
             <ul>
               <li>
