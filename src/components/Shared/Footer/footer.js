@@ -9,7 +9,7 @@ import logo from "../../../assets/icon/LOGO_new.png";
 const Footer = () => {
   return (
     <>
-      <footer className="footer pb-2">
+      <footer className="footer ">
         <div className="about col-lg-4 col-md-12 col-sm-12">
           <img alt="" className="logo" src={logo} />
 
@@ -21,7 +21,7 @@ const Footer = () => {
             gears, cluster gears, connecting shafts.
           </p>
 
-          <p className="Copyright pb-2">
+          <p className="Copyright ">
             Copyright &copy; 2020, All Right Reserved{" "}
             <a href="https://www.indosculp.com/">Indosculp</a>
           </p>
