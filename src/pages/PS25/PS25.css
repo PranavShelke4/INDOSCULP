@@ -59,14 +59,14 @@ h1{
 }
 
 #buy_btn{
-    margin-right: 5%;
+    margin-right: 10%;
     background-color: transparent;
-    padding: 2%;
     cursor: pointer;
     border: none;
     border-radius: 10px;
     font-size: larger;
     transition: all 0.5s;
+    padding: 2%;
 }
 
 #buy_btn span {

@@ -116,7 +116,7 @@ const Header = () => {
                 Contacts
               </NavDropdown.Item>
               <NavDropdown.Item id="nav_dropdown_item" href="/">
-                Bonfiglioli Service
+                 Service
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/">
