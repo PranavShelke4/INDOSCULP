@@ -97,6 +97,10 @@ iframe{
     padding: 3%;
 }
 
+.img1{
+    margin-top: -46px;
+}
+
 .bg{
     width: 100%;
     height: 100%;
@@ -115,7 +119,7 @@ iframe{
 }
 
 .box2{
-    padding-top: 5%;
+    padding-top: 0%;
 }
 
 .box1{
@@ -125,26 +129,26 @@ iframe{
 .title1{
     text-align: center;
     padding: 3%;
+    font-size: 16px;
+    /* margin-top: -30px !important; */
 }
 
-.Title{
-    font-size: 4rem;
+.product___Title{
+    font-size: 20px !important;
     margin-bottom: 3%;
 }
 
-.Title2{
-    margin-bottom: 3%;
-}
 
 .product_info{
-    font-size: 23px;
+    font-size: 16px;
     padding: 3%;
 }
 
 @media only screen and (max-width: 600px) {
 
-    .img{
+    .img, .img1{
         width: 100%;
+        margin-top: 0px;
     }
 
     .box{

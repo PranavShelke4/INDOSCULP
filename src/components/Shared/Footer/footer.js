@@ -83,7 +83,7 @@ const Footer = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     className="icon icon-tabler icon-tabler-map-pin mx-1"
                     width="12"
-                    height="12"
+                    height="20"
                     viewBox="0 0 24 24"
                     strokeWidth="3"
                     stroke="#ffffff"
@@ -95,7 +95,7 @@ const Footer = () => {
                     <circle cx="12" cy="11" r="3" />
                     <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
                   </svg>
-                  A-67, M.I.D.C. Ahmednagar, <br />Mahrashtra INDIA - 414111
+                  A-67, M.I.D.C. Ahmednagar, <br/> Mahrashtra INDIA - 414111
                 </a>
               </p>
               {/* <br /> */}
@@ -105,7 +105,7 @@ const Footer = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     className="icon icon-tabler icon-tabler-mail mx-1"
                     width="10"
-                    height="10"
+                    height="20"
                     viewBox="0 0 24 24"
                     strokeWidth="3"
                     stroke="#ffffff"
