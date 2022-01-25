@@ -42,7 +42,7 @@
   background-color: lightgray;
   transition: all 1s;
   transform: scale(1.10);
-
+  border-radius: 5px;
 }
 
 

@@ -61,7 +61,7 @@ function Product() {
                 <div className="rounded" id="productCard">
                   <img className="productImg" alt="product_image" src={productimg} />
                   <div className="p-2">
-                    <h3>{product.productname}</h3>
+                    <h3 id="product__name">{product.productname}</h3>
                     <p>{product.productinfo}</p>
                   </div>
                 </div>
