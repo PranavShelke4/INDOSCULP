@@ -68,13 +68,6 @@ function Product() {
               </a>
             );
           })}
-
-          {/* {productdata.map(({ id, productname1, productinfo1 }) => (
-                <div className="p-2">
-                  <h3 key={id}>{productname1}</h3>
-                  <p>{productinfo1}</p>
-                </div>
-              ))} */}
          
         </div>
 
