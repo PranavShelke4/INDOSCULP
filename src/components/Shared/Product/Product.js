@@ -55,7 +55,7 @@ function Product() {
       <Container>
         <div className="d-flex flex-md-row flex-sm-column flex-wrap justify-content-center">
 
-          {productdata.map((product) => {
+          {/* {productdata.map((product) => {
             return (
               <a href="/PS25" key={product.id}>
                 <div className="rounded" id="productCard">
@@ -67,7 +67,7 @@ function Product() {
                 </div>
               </a>
             );
-          })}
+          })} */}
 
           {/* {productdata.map(({ id, productname1, productinfo1 }) => (
                 <div className="p-2">
@@ -76,7 +76,7 @@ function Product() {
                 </div>
               ))} */}
 
-          {/* <a href="/PS25">
+          <a href="/PS25">
             <div className="rounded" id="productCard">
               <img className="productImg" src={product} alt="product1" />
               {productdata.map(({ id2, productname2, productinfo2 }) => (
@@ -159,7 +159,7 @@ function Product() {
                 </p>
               </div>
             </div>
-          </a> */}
+          </a>
         </div>
       </Container>
     </div>
