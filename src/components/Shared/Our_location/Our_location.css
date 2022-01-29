@@ -10,15 +10,15 @@
 
 .mark1{
     position: absolute;
-    bottom: -90px;
+    bottom: -76px;
     right: 525px;
 }
 
 .mark1:hover{
-    width: 70px;
+    width: 60px;
     position: absolute;
-    bottom: -90px;
-    right: 515px;
+    bottom: -76px;
+    right: 520px;
 }
 
 @media only screen and (max-width: 600px) {
