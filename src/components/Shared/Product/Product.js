@@ -26,7 +26,6 @@ function Product() {
                     </div>
                   </div>
                 </Link>
-                
               </>
             );
           })}
