@@ -1,32 +1,3 @@
-/* 
-
-.product{
-    padding-left: 30px;
-}
-
-@media only screen and (max-width: 600px) {
-
-    .card{
-        margin-right: -8%;
-        margin-left: 6%;
-    }
-    
-    .product{
-        padding-left: 0px;
-    }
-
-    .product1, .product2, .product3{
-        width: 100%;
-        margin-left: 0px;
-        margin-top: 3%;
-        margin-bottom: 1%;
-    }
-
-    .product3{
-        margin-bottom: 10%;
-    }
-
-} */
 
 #products {
   margin-top: 5%;
