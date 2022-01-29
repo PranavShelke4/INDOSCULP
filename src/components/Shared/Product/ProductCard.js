@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./Product.css";
+import "./ProductCard.css";
 import productdata from "./ProductData";
 
 function Product() {

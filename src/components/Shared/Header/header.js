@@ -1,9 +1,10 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-
+import productdata from "../Product/ProductData";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import "./header.css";
 import logo from "../../../assets/icon/LOGOnew.png";
+import { Link } from "react-router-dom";
 // import MediaBar from "../Social_Media_Bar/mediaBar";
 
 const Header = () => {
@@ -38,10 +39,18 @@ const Header = () => {
               title={<b>Products</b>}
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item id="nav_dropdown_item" href="/PS25">
-                PS25 Foot Type
-              </NavDropdown.Item>
-              <NavDropdown.Item id="nav_dropdown_item" href="/PS25">
+              {productdata.map((product) => {
+                var link = `/product/:` + product.id;
+                return (
+                  <>
+                    <NavDropdown.Item id="nav_dropdown_item">
+                      <Link to={link} key={product.id}>{product.productname}</Link>
+                    </NavDropdown.Item>
+                  </>
+                );
+              })}
+
+              {/* <NavDropdown.Item id="nav_dropdown_item" href="/PS25">
                 PS25 Flange Type
               </NavDropdown.Item>
               <NavDropdown.Item id="nav_dropdown_item" href="/PS25">
@@ -55,7 +64,7 @@ const Header = () => {
               </NavDropdown.Item>
               <NavDropdown.Item id="nav_dropdown_item" href="/PS25">
                 PS35 Flange Type
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
             </NavDropdown>
             <NavDropdown
               className="nav-dropdown"
@@ -116,7 +125,7 @@ const Header = () => {
                 Contacts
               </NavDropdown.Item>
               <NavDropdown.Item id="nav_dropdown_item" href="/">
-                 Service
+                Service
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/">

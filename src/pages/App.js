@@ -1,13 +1,13 @@
 import "./App.css";
 import Slideshow from "../components/Shared/Slider/Slider";
-import Product from "../components/Shared/Product/Product";
+import Productcard from "../components/Shared/Product/ProductCard";
 
 
 function App() {
   return (
     <div className="App">
       <Slideshow />
-      <Product />
+      <Productcard />
 
     </div>
   );

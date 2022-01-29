@@ -9,7 +9,7 @@ function Products() {
 
   useEffect(() => {
     loadProduct(id);
-  }, []);
+  }, [id]);
 
   const loadProduct = (i) => {
     let pro = productdata.find((x) => x.id === i.substring(1));
