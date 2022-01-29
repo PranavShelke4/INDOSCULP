@@ -10,33 +10,33 @@
 }
 
 #productImg{
-    height: 650px;
+    height: 550px;
 }
 
 #productInfo{
     padding: 5%;
-    height: 650px;
+    height: 550px;
     margin-bottom: 0px;
 
 }
 
 #title{
-    font-size: 50px;
+    font-size: 2.2rem !important;
     color: #329ED6;
 }
 
 h3{
-  font-size: 30px !important;
+  font-size: 1.5rem !important;
 }
 
 h1{
-  font-size: 30px !important;
+  font-size: 2rem !important;
   margin-top: 5%;
 }
 
 .productInfo{
     margin-top: 5%;
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 5%;
    
 }
@@ -46,6 +46,10 @@ h1{
     background-color: #329ED6;
     color: white;
     padding: 3%;
+}
+
+#benefits{
+  font-size: 1rem;
 }
 
 #options_box{
@@ -118,6 +122,37 @@ h1{
   }
   
   #contact_btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  #catalogue_btn{
+    background-color: transparent;
+    padding: 2% !important;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    transition: all 0.5s;
+  }
+
+  #catalogue_btn span {
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+  }
+
+  #catalogue_btn span:after {
+    content: '\21E9';
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  #catalogue_btn:hover span {
+    padding-right: 1.3rem;
+  }
+  
+  #catalogue_btn:hover span:after {
     opacity: 1;
     right: 0;
   }

@@ -24,7 +24,9 @@ const Footer = () => {
 
           <p className="Copyright ">
             Copyright &copy; 2020, All Right Reserved{" "}
-            <a className="Copyright" href="https://www.indosculp.com/">Indosculp</a>
+            <a className="Copyright" href="https://www.indosculp.com/">
+              Indosculp
+            </a>
           </p>
         </div>
 
@@ -95,12 +97,12 @@ const Footer = () => {
                     <circle cx="12" cy="11" r="3" />
                     <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
                   </svg>
-                  A-67, M.I.D.C. Ahmednagar, <br/> Mahrashtra INDIA - 414111
+                  A-67, MIDC - 414111 <br /> Ahmednagar (MH), INDIA
                 </a>
               </p>
               {/* <br /> */}
               <p className="d-flex flex-row py-0 my-1">
-                <a className="pages" href="mailto:indosculp@gmail.com">
+                <a className="pages" href="mailto:info@indosculp.com">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="icon icon-tabler icon-tabler-mail mx-1"
@@ -117,12 +119,12 @@ const Footer = () => {
                     <rect x="3" y="5" width="18" height="14" rx="2" />
                     <polyline points="3 7 12 13 21 7" />
                   </svg>
-                  indosculp@gmail.com
+                  info@indosculp.com
                 </a>
               </p>
               {/* <br /> */}
               <p className="d-flex flex-row py-0 my-1">
-                <a className="pages" href="tel:+9102412778844">
+                <a className="pages" href="tel:+918888814506">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="icon icon-tabler icon-tabler-phone mx-1"
@@ -138,27 +140,7 @@ const Footer = () => {
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
                   </svg>
-                  +91 0241 2778844
-                </a>
-              </p>
-              <p className="d-flex flex-row py-0 my-1">
-                <a className="pages" href="tel:+9102412778844">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="icon icon-tabler icon-tabler-phone mx-1"
-                    width="10"
-                    height="10"
-                    viewBox="0 0 24 24"
-                    strokeWidth="3"
-                    stroke="#ffffff"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-                  </svg>
-                  +91 0241 2779584
+                  +91 88888 14506
                 </a>
               </p>
             </div>

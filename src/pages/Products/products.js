@@ -32,14 +32,19 @@ function Products() {
             <h3>{product.subtitle}</h3>
             <p className="productInfo">{product.dis}</p>
 
-            <a href="/">
+            <a href={product.buyLink}>
               <button id="buy_btn">
                 <span>Buy Now </span>
               </button>
             </a>
-            <a href="/">
+            <a href="tel:{product.contactNo}">
               <button id="contact_btn">
                 <span>Contact now </span>
+              </button>
+            </a>
+            <a href={product.catalogueLink}>
+              <button id="catalogue_btn">
+                <span>Download Catalogue</span>
               </button>
             </a>
           </div>
@@ -47,19 +52,19 @@ function Products() {
             <h1>
               <b>Key benefits</b>
             </h1>
-            <p id="benefits">- High torque density</p>
-            <p id="benefits">- High torque density</p>
-            <p id="benefits">- High torque density</p>
-            <p id="benefits">- High torque density</p>
+            <p id="benefits">{product.keyBenefits[0]}</p>
+            <p id="benefits">{product.keyBenefits[1]}</p>
+            <p id="benefits">{product.keyBenefits[2]}</p>
+            <p id="benefits">{product.keyBenefits[3]}</p>
           </div>
           <div className="col-lg-6 col-sm-12 col-md-6" id="options_box">
             <h1>
               <b>Main options</b>
             </h1>
-            <p id="benefits">- High torque density</p>
-            <p id="benefits">- High torque density</p>
-            <p id="benefits">- High torque density</p>
-            <p id="benefits">- High torque density</p>
+            <p id="benefits">{product.mainOptions[0]}</p>
+            <p id="benefits">{product.mainOptions[1]}</p>
+            <p id="benefits">{product.mainOptions[2]}</p>
+            <p id="benefits">{product.mainOptions[3]}</p>
           </div>
         </>
       )}
