@@ -40,14 +40,14 @@ function Products() {
 
               <button id="buy_btn">
                 <span>Buy Now </span>
-              </button>
+              </button><br/>
            
-            <a href="tel:{product.contactNo}">
+            {/* <a href="tel:{product.contactNo}">
               <button id="contact_btn">
                 <span>Contact now </span>
               </button>
-            </a>
-            <a href={product.catalogueLink}>
+            </a> */}
+            <a href={product.catalogueLink} download>
               <button id="catalogue_btn">
                 <span>Download Catalogue</span>
               </button>
