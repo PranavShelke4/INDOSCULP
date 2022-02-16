@@ -32,11 +32,16 @@ function Products() {
             <h3>{product.subtitle}</h3>
             <p className="productInfo">{product.dis}</p>
 
-            <a href={product.buyLink}>
+            {/* <a href={product.buyLink}>
               <button id="buy_btn">
                 <span>Buy Now </span>
               </button>
-            </a>
+            </a> */}
+
+              <button id="buy_btn">
+                <span>Buy Now </span>
+              </button>
+           
             <a href="tel:{product.contactNo}">
               <button id="contact_btn">
                 <span>Contact now </span>
@@ -65,6 +70,9 @@ function Products() {
             <p id="benefits">{product.mainOptions[1]}</p>
             <p id="benefits">{product.mainOptions[2]}</p>
             <p id="benefits">{product.mainOptions[3]}</p>
+            <p id="benefits">{product.mainOptions[4]}</p>
+            <p id="benefits">{product.mainOptions[5]}</p>
+            <p id="benefits">{product.mainOptions[6]}</p>
           </div>
         </>
       )}
