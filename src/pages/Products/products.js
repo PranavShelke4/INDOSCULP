@@ -79,13 +79,69 @@ function Products() {
             <input type="checkbox" id="question1" name="q" class="questions" />
             <div class="plus">+</div>
             <label for="question1" class="question">
-              Do you have “green” products?
+              Torque range
             </label>
             <div class="answers">
               <p className="ans">
-                Many of Cavendish Square’s products are produced with recycled
-                pulp content, allowing our company to pursue its green goals
-                while adding additional value for your eco-conscious purchases.{" "}
+                {product.TorqueRange}{" "}
+              </p>
+            </div>
+          </div>
+          <div>
+            <input type="checkbox" id="question2" name="q" class="questions" />
+            <div class="plus">+</div>
+            <label for="question2" class="question">
+            Gear ratios
+            </label>
+            <div class="answers">
+              <p className="ans">
+              {product.GearRatios}{" "}
+              </p>
+            </div>
+          </div>
+          <div>
+            <input type="checkbox" id="question3" name="q" class="questions" />
+            <div class="plus">+</div>
+            <label for="question3" class="question">
+            Transmissible Mechanical Power
+            </label>
+            <div class="answers">
+              <p className="ans">
+               {product.MechanicalPower}{" "}
+              </p>
+            </div>
+          </div>
+          <div>
+            <input type="checkbox" id="question4" name="q" class="questions" />
+            <div class="plus">+</div>
+            <label for="question4" class="question">
+            Output
+            </label>
+            <div class="answers">
+              <p className="ans">
+                {product.Output[0]}<br/>
+                {product.Output[1]}<br/>
+                {product.Output[2]}{" "}
+              </p>
+            </div>
+          </div>
+          <div>
+            <input type="checkbox" id="question5" name="q" class="questions" />
+            <div class="plus">+</div>
+            <label for="question5" class="question">
+            Application
+            </label>
+            <div class="answers">
+              <p className="ans">
+                {product.Application[0]}<br/>
+                {product.Application[1]}<br/>
+                {product.Application[2]}<br/>
+                {product.Application[3]}<br/>
+                {product.Application[4]}<br/>
+                {product.Application[5]}<br/>
+                {product.Application[6]}<br/>
+                {product.Application[7]}<br/>
+                {product.Application[8]}<br/>{" "}
               </p>
             </div>
           </div>
