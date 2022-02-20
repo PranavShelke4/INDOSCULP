@@ -157,6 +157,78 @@ h1{
     right: 0;
   }
 
+  .question {
+    color: #fff;
+    position: relative;
+    background: #98c23d;
+    margin: 0;
+    padding: 10px 10px 10px 50px;
+    display: block;
+    width:100.8%;
+    cursor: pointer;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  
+  .answers {
+    font-weight:300;
+    background: #f2f2f2;
+    width:100.8%;
+    padding: 0px 5px;
+    margin: 0px 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .7s ease;
+    -moz-transition: .7s ease;
+    -o-transition: .7s ease;
+    transition: .7s ease;
+  }
+
+  .ans{
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .questions:checked ~ .answers{
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+  }
+  
+  .plus {
+    color:#fff;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5px;
+    z-index: 5;
+    font-size: 3.7rem;
+    line-height: 100%;
+    -webkit-user-select: none;    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+    
+  }
+  
+  .questions:checked ~ .plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .questions {
+    display: none;
+  }
+
 @media only screen and (max-width: 600px) {
 
     #productInfo{
@@ -169,4 +241,7 @@ h1{
         margin-bottom: -7%;
     }
     
+    .question{
+      width: 103%;
+    }
 }

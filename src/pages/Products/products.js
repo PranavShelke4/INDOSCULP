@@ -38,10 +38,11 @@ function Products() {
               </button>
             </a> */}
 
-              <button id="buy_btn">
-                <span>Buy Now </span>
-              </button><br/>
-           
+            <button id="buy_btn">
+              <span>Buy Now </span>
+            </button>
+            <br />
+
             {/* <a href="tel:{product.contactNo}">
               <button id="contact_btn">
                 <span>Contact now </span>
@@ -73,6 +74,20 @@ function Products() {
             <p id="benefits">{product.mainOptions[4]}</p>
             <p id="benefits">{product.mainOptions[5]}</p>
             <p id="benefits">{product.mainOptions[6]}</p>
+          </div>
+          <div>
+            <input type="checkbox" id="question1" name="q" class="questions" />
+            <div class="plus">+</div>
+            <label for="question1" class="question">
+              Do you have “green” products?
+            </label>
+            <div class="answers">
+              <p className="ans">
+                Many of Cavendish Square’s products are produced with recycled
+                pulp content, allowing our company to pursue its green goals
+                while adding additional value for your eco-conscious purchases.{" "}
+              </p>
+            </div>
           </div>
         </>
       )}
