@@ -19,6 +19,11 @@ const productdata = [
     dis: " The PS Series best suits for quarry and mining applications, where reliability and low maintenance are key factors. These Series can be completed with a wide range of standard electric motors. Indosculp can always provide customers with the perfectly balanced solution, in terms of efficiency, dynamics and cost-effectiveness.",
     keyBenefits: [ "Minimized mounting space","Reduced installation space","Reduced standard backlash","Highly dynamic, energy-saving solution", "Wide output speed selection range"],
     mainOptions: [ "Surface protection up to C5", "Reinforced bearings", "Reduced backlash", "Torque arm", "Fluoroelastomer oil seals", "Double oil seasonal input", "Taconite seals"],
+    TorqueRange: "80 ...  200 Nm",
+    GearRatios: "5.02 ... 192.10",
+    MechanicalPower: "0.1 ... 4.9 kW",
+    Output: ["Foot mounting", "Flange mounting"],
+    Application: [ "Drying & Cooking Line - Oven, Dryer, Fryer", "Mixing - Mixer, Kneader", "Processing – Crushers", "Storage – Bagging machines & Conveyors", "Screening – Drag Conveyor", "Raw Material Handling – Feeding, Washing & Sorting Systems, Conveyors", "Tertiary Packing – Palletizing Machines, Wrapping Machines", "Warehouse lifts – Overhead cranes", "Industrial Cranes – Gantry cranes" ]
   }, 
   {
     id: "PS25-Flange-Type",
@@ -34,6 +39,11 @@ const productdata = [
     dis: " The PS Series best suits for quarry and mining applications, where reliability and low maintenance are key factors. These Series can be completed with a wide range of standard electric motors. Indosculp can always provide customers with the perfectly balanced solution, in terms of efficiency, dynamics and cost-effectiveness.",
     keyBenefits: [ "Minimized mounting space","Reduced installation space","Reduced standard backlash","Highly dynamic, energy-saving solution", "Wide output speed selection range"],
     mainOptions: [ "Surface protection up to C5", "Reinforced bearings", "Reduced backlash", "Torque arm", "Fluoroelastomer oil seals", "Double oil seasonal input", "Taconite seals"],
+    TorqueRange: "80 ...  200 Nm",
+    GearRatios: "5.02 ... 192.10",
+    MechanicalPower: "0.1 ... 4.9 kW",
+    Output: ["Foot mounting", "Flange mounting"],
+    Application: [ "Drying & Cooking Line - Oven, Dryer, Fryer", "Mixing - Mixer, Kneader", "Processing – Crushers", "Storage – Bagging machines & Conveyors", "Screening – Drag Conveyor", "Raw Material Handling – Feeding, Washing & Sorting Systems, Conveyors", "Tertiary Packing – Palletizing Machines, Wrapping Machines", "Warehouse lifts – Overhead cranes", "Industrial Cranes – Gantry cranes" ]
   },
   {
     id: "PS30-Foot-Type",
