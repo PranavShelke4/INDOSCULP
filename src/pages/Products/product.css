@@ -164,16 +164,16 @@ h1{
     margin: 0;
     padding: 10px 10px 10px 50px;
     display: block;
-    width:100.8%;
+    width:50%;
     cursor: pointer;
     font-size: 1.8rem;
-    text-align: center;
+    /* text-align: center; */
   }
   
   .answers {
     font-weight:300;
     background: #f2f2f2;
-    width:100.8%;
+    width:48%;
     padding: 0px 5px;
     margin: 0px 0;
     height: 0;
@@ -228,6 +228,31 @@ h1{
   .questions {
     display: none;
   }
+
+  table {
+    border-collapse: collapse;
+    width: 100% !important;
+    margin-left: .5rem !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+   th {
+    border: 1px solid #a19c9c !important;
+    text-align: left;
+    padding: 8px;
+    background-color: rgb(241, 241, 241);
+  }
+  td{
+    border: 1px solid #a19c9c !important;
+    background-color: white;
+    padding-left: 1rem;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+ 
 
 @media only screen and (max-width: 600px) {
 

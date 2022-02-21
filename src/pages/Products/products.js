@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./product.css";
 import { useParams } from "react-router-dom";
 import productdata from "../../components/Shared/Product/ProductData";
+import { Container } from "react-bootstrap";
 
 function Products() {
   const [product, setProduct] = useState(null);
@@ -82,45 +83,41 @@ function Products() {
               Torque range
             </label>
             <div class="answers">
-              <p className="ans">
-                {product.TorqueRange}{" "}
-              </p>
+              <p className="ans">{product.TorqueRange} </p>
             </div>
           </div>
           <div>
             <input type="checkbox" id="question2" name="q" class="questions" />
             <div class="plus">+</div>
             <label for="question2" class="question">
-            Gear ratios
+              Gear ratios
             </label>
             <div class="answers">
-              <p className="ans">
-              {product.GearRatios}{" "}
-              </p>
+              <p className="ans">{product.GearRatios} </p>
             </div>
           </div>
           <div>
             <input type="checkbox" id="question3" name="q" class="questions" />
             <div class="plus">+</div>
             <label for="question3" class="question">
-            Transmissible Mechanical Power
+              Transmissible Mechanical Power
             </label>
             <div class="answers">
-              <p className="ans">
-               {product.MechanicalPower}{" "}
-              </p>
+              <p className="ans">{product.MechanicalPower} </p>
             </div>
           </div>
           <div>
             <input type="checkbox" id="question4" name="q" class="questions" />
             <div class="plus">+</div>
             <label for="question4" class="question">
-            Output
+              Output
             </label>
             <div class="answers">
               <p className="ans">
-                {product.Output[0]}<br/>
-                {product.Output[1]}<br/>
+                {product.Output[0]}
+                <br />
+                {product.Output[1]}
+                <br />
                 {product.Output[2]}{" "}
               </p>
             </div>
@@ -129,22 +126,83 @@ function Products() {
             <input type="checkbox" id="question5" name="q" class="questions" />
             <div class="plus">+</div>
             <label for="question5" class="question">
-            Application
+              Application
             </label>
             <div class="answers">
               <p className="ans">
-                {product.Application[0]}<br/>
-                {product.Application[1]}<br/>
-                {product.Application[2]}<br/>
-                {product.Application[3]}<br/>
-                {product.Application[4]}<br/>
-                {product.Application[5]}<br/>
-                {product.Application[6]}<br/>
-                {product.Application[7]}<br/>
-                {product.Application[8]}<br/>{" "}
+                {product.Application[0]}
+                <br />
+                {product.Application[1]}
+                <br />
+                {product.Application[2]}
+                <br />
+                {product.Application[3]}
+                <br />
+                {product.Application[4]}
+                <br />
+                {product.Application[5]}
+                <br />
+                {product.Application[6]}
+                <br />
+                {product.Application[7]}
+                <br />
+                {product.Application[8]}
+                <br />{" "}
               </p>
             </div>
           </div>
+
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <table className="col-lg-6 col-sm-12 col-md-6">
+              <tr>
+                <th>Torque range</th>
+                <td>{product.TorqueRange}</td>
+              </tr>
+              <tr>
+                <th>Gear ratios</th>
+                <td>{product.GearRatios}</td>
+              </tr>
+              <tr>
+                <th>Application</th>
+                <td> {product.Application[0]}
+                <br />
+                {product.Application[1]}
+                <br />
+                {product.Application[2]}
+                <br />
+                {product.Application[3]}
+                <br />
+                {product.Application[4]}
+                <br />
+                {product.Application[5]}
+                <br />
+                {product.Application[6]}
+                <br />
+                {product.Application[7]}
+                <br />
+                {product.Application[8]}
+                <br />{" "}</td>
+              </tr>
+            </table>
+            </div>
+
+            <div className="col-lg-6 col-md-6 col-sm-12">
+            <table className="col-lg-6 col-sm-12 col-md-6">
+              <tr>
+                <th>Transmissible Mechanical Power</th>
+                <td>{product.MechanicalPower}</td>
+              </tr>
+              <tr>
+                <th>Output</th>
+                <td>{product.Output[0]}
+                <br />
+                {product.Output[1]}
+                <br />
+                {product.Output[2]}{" "}</td>
+              </tr>
+            </table>
+            </div>
+      
         </>
       )}
     </div>
