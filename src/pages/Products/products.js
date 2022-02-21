@@ -55,102 +55,6 @@ function Products() {
               </button>
             </a>
           </div>
-          <div className="col-lg-6 col-sm-12 col-md-6" id="benefits_box">
-            <h1>
-              <b>Key benefits</b>
-            </h1>
-            <p id="benefits">{product.keyBenefits[0]}</p>
-            <p id="benefits">{product.keyBenefits[1]}</p>
-            <p id="benefits">{product.keyBenefits[2]}</p>
-            <p id="benefits">{product.keyBenefits[3]}</p>
-          </div>
-          <div className="col-lg-6 col-sm-12 col-md-6" id="options_box">
-            <h1>
-              <b>Main options</b>
-            </h1>
-            <p id="benefits">{product.mainOptions[0]}</p>
-            <p id="benefits">{product.mainOptions[1]}</p>
-            <p id="benefits">{product.mainOptions[2]}</p>
-            <p id="benefits">{product.mainOptions[3]}</p>
-            <p id="benefits">{product.mainOptions[4]}</p>
-            <p id="benefits">{product.mainOptions[5]}</p>
-            <p id="benefits">{product.mainOptions[6]}</p>
-          </div>
-          <div>
-            <input type="checkbox" id="question1" name="q" class="questions" />
-            <div class="plus">+</div>
-            <label for="question1" class="question">
-              Torque range
-            </label>
-            <div class="answers">
-              <p className="ans">{product.TorqueRange} </p>
-            </div>
-          </div>
-          <div>
-            <input type="checkbox" id="question2" name="q" class="questions" />
-            <div class="plus">+</div>
-            <label for="question2" class="question">
-              Gear ratios
-            </label>
-            <div class="answers">
-              <p className="ans">{product.GearRatios} </p>
-            </div>
-          </div>
-          <div>
-            <input type="checkbox" id="question3" name="q" class="questions" />
-            <div class="plus">+</div>
-            <label for="question3" class="question">
-              Transmissible Mechanical Power
-            </label>
-            <div class="answers">
-              <p className="ans">{product.MechanicalPower} </p>
-            </div>
-          </div>
-          <div>
-            <input type="checkbox" id="question4" name="q" class="questions" />
-            <div class="plus">+</div>
-            <label for="question4" class="question">
-              Output
-            </label>
-            <div class="answers">
-              <p className="ans">
-                {product.Output[0]}
-                <br />
-                {product.Output[1]}
-                <br />
-                {product.Output[2]}{" "}
-              </p>
-            </div>
-          </div>
-          <div>
-            <input type="checkbox" id="question5" name="q" class="questions" />
-            <div class="plus">+</div>
-            <label for="question5" class="question">
-              Application
-            </label>
-            <div class="answers">
-              <p className="ans">
-                {product.Application[0]}
-                <br />
-                {product.Application[1]}
-                <br />
-                {product.Application[2]}
-                <br />
-                {product.Application[3]}
-                <br />
-                {product.Application[4]}
-                <br />
-                {product.Application[5]}
-                <br />
-                {product.Application[6]}
-                <br />
-                {product.Application[7]}
-                <br />
-                {product.Application[8]}
-                <br />{" "}
-              </p>
-            </div>
-          </div>
 
           <div className="col-lg-6 col-md-6 col-sm-12">
             <table className="col-lg-6 col-sm-12 col-md-6">
@@ -159,34 +63,49 @@ function Products() {
                 <td>{product.TorqueRange}</td>
               </tr>
               <tr>
+                <th>Key benefits</th>
+                <td>
+                  {product.keyBenefits[0]}
+                  <br />
+                  {product.keyBenefits[1]}
+                  <br />
+                  {product.keyBenefits[2]}
+                  <br />
+                  {product.keyBenefits[3]}
+                </td>
+              </tr>
+              <tr>
                 <th>Gear ratios</th>
                 <td>{product.GearRatios}</td>
               </tr>
               <tr>
                 <th>Application</th>
-                <td> {product.Application[0]}
-                <br />
-                {product.Application[1]}
-                <br />
-                {product.Application[2]}
-                <br />
-                {product.Application[3]}
-                <br />
-                {product.Application[4]}
-                <br />
-                {product.Application[5]}
-                <br />
-                {product.Application[6]}
-                <br />
-                {product.Application[7]}
-                <br />
-                {product.Application[8]}
-                <br />{" "}</td>
+                <td>
+                  {" "}
+                  {product.Application[0]}
+                  <br />
+                  {product.Application[1]}
+                  <br />
+                  {product.Application[2]}
+                  <br />
+                  {product.Application[3]}
+                  <br />
+                  {product.Application[4]}
+                  <br />
+                  {product.Application[5]}
+                  <br />
+                  {product.Application[6]}
+                  <br />
+                  {product.Application[7]}
+                  <br />
+                  {product.Application[8]}
+                  <br />{" "}
+                </td>
               </tr>
             </table>
-            </div>
+          </div>
 
-            <div className="col-lg-6 col-md-6 col-sm-12">
+          <div className="col-lg-6 col-md-6 col-sm-12">
             <table className="col-lg-6 col-sm-12 col-md-6">
               <tr>
                 <th>Transmissible Mechanical Power</th>
@@ -194,15 +113,34 @@ function Products() {
               </tr>
               <tr>
                 <th>Output</th>
-                <td>{product.Output[0]}
-                <br />
-                {product.Output[1]}
-                <br />
-                {product.Output[2]}{" "}</td>
+                <td>
+                  {product.Output[0]}
+                  <br />
+                  {product.Output[1]}
+                  <br />
+                  {product.Output[2]}{" "}
+                </td>
+              </tr>
+              <tr>
+                <th>Main options</th>
+                <td>
+                  {product.mainOptions[0]}
+                  <br />
+                  {product.mainOptions[1]}
+                  <br />
+                  {product.mainOptions[2]}
+                  <br />
+                  {product.mainOptions[3]}
+                  <br />
+                  {product.mainOptions[4]}
+                  <br />
+                  {product.mainOptions[5]}
+                  <br />
+                  {product.mainOptions[6]}
+                </td>
               </tr>
             </table>
-            </div>
-      
+          </div>
         </>
       )}
     </div>
