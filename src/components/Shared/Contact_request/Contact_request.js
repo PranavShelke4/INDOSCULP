@@ -15,7 +15,14 @@ function Contact_request() {
               </span>
             </div>
 
-            <form className="contact100-form validate-form">
+            <form action="https://formsubmit.co/pranavshelke4@gmail.com" method="POST" className="contact100-form validate-form">
+              
+            <input type="hidden" name="_next" value="https://indosculp-dev.netlify.app/info"></input>
+
+            <input type="hidden" name="_captcha" value="false"/>
+
+            <input type="hidden" name="_template" value="table"></input>
+              
               <div
                 className="wrap-input100 validate-input"
                 data-validate="Name is required"
