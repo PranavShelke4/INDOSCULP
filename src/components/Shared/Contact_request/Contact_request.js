@@ -1,7 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact_request.css";
+import { send } from "@emailjs/browser";
 
 function Contact_request() {
+  const [toSend, setToSend] = useState({
+    from_name: "",
+    to_name: "",
+    message: "",
+    reply_to: "",
+  });
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    send(
+      "service_vhckqhu",
+      "template_oc5arkb",
+      toSend,
+      "user_fhvj7YUkcNxB7SxVBZhQs"
+    )
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+        
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+      });
+  };
+
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
+  };
   return (
     <>
       <div className="Contact_request">
@@ -15,7 +43,7 @@ function Contact_request() {
               </span>
             </div>
 
-            <form className="contact100-form validate-form">
+            <form onSubmit={onSubmit} className="contact100-form validate-form">
               <div
                 className="wrap-input100 validate-input"
                 data-validate="Name is required"
@@ -24,8 +52,10 @@ function Contact_request() {
                 <input
                   className="input100"
                   type="text"
-                  name="name"
+                  name="from_name"
                   placeholder="Enter full name"
+                  value={toSend.from_name}
+                  onChange={handleChange}
                 />
                 <span className="focus-input100"></span>
               </div>
@@ -38,8 +68,10 @@ function Contact_request() {
                 <input
                   className="input100"
                   type="text"
-                  name="email"
+                  name='reply_to'
                   placeholder="Enter email addess"
+                  value={toSend.reply_to}
+                  onChange={handleChange}
                 />
                 <span className="focus-input100"></span>
               </div>
@@ -67,6 +99,8 @@ function Contact_request() {
                   className="input100"
                   name="message"
                   placeholder="Your Comment..."
+                  value={toSend.message}
+                  onChange={handleChange}
                 ></textarea>
                 <span className="focus-input100"></span>
               </div>
