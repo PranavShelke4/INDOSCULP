@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import "./product.css";
 import { useParams } from "react-router-dom";
 import productdata from "../../components/Shared/Product/ProductData";
-import { Container } from "react-bootstrap";
 
 function Products() {
   const [product, setProduct] = useState(null);
